@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Sample Information Explorer\n\n\nThe server can be found \nhere\n.", 
+            "title": "Sample Information Introduction"
+        }, 
+        {
+            "location": "/#welcome-to-sample-information-explorer", 
+            "text": "The server can be found  here .", 
+            "title": "Welcome to Sample Information Explorer"
+        }
+    ]
+}
