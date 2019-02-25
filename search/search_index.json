@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to Sample Information Explorer\n\n\nThe server can be found \nhere\n.", 
+            "text": "Welcome to the Reanalysis of Data User Interface for MS2 (ReDU-MS2)\n\n\nReDU-MS2\n is a web-based user interface that can be used to easily \nAnalyze Your Data\n or \nAnalyze All Public Data\n. The user interface allows one to select public mass spectrometry files in \nMassIVE\n, a public mass spectrometry data repository, based on a curated set of sample information and launch reanalyses in the Global Natural Products Social Molecular Networking \nGNPS\n platform. \n\n\nMS2 data (aka tandem mass spectrometry, MS^2, MS/MS), specifically product ion scans, are obtained from user-submitted open-source data files (.mzXML) and analyzed \nde novo\n using molecular networking and chemical annotations within GNPS.\n\n\nThis is a community effort and everyone is encouraged to participate by submitting their own data and sample information (\ninstructions\n).\n\n\nWe are developing two main branches of functionality:\n\n\n\n\nAnalyze Your Data\n\n\nMultivariate Comparison of Your MS2 Annotations with Public Data\n\n\nCo-Analyze your Data via GNPS Molecular Networking\n\n\n\n\nSample Information Enhrichment Analysis\n\n\n\n\n\n\nAnalyze All Public Data\n\n\n\n\nMultivariate Analysis of MS2 Annotations\n\n\nReanalyze Public Data via GNPS Molecular Networking\n\n\nChemical Annotation Enrichment Analysis\n\n\nSample Information Enhrichment Analysis", 
             "title": "Sample Information Introduction"
         }, 
         {
-            "location": "/#welcome-to-sample-information-explorer", 
-            "text": "The server can be found  here .", 
-            "title": "Welcome to Sample Information Explorer"
+            "location": "/#welcome-to-the-reanalysis-of-data-user-interface-for-ms2-redu-ms2", 
+            "text": "ReDU-MS2  is a web-based user interface that can be used to easily  Analyze Your Data  or  Analyze All Public Data . The user interface allows one to select public mass spectrometry files in  MassIVE , a public mass spectrometry data repository, based on a curated set of sample information and launch reanalyses in the Global Natural Products Social Molecular Networking  GNPS  platform.   MS2 data (aka tandem mass spectrometry, MS^2, MS/MS), specifically product ion scans, are obtained from user-submitted open-source data files (.mzXML) and analyzed  de novo  using molecular networking and chemical annotations within GNPS.  This is a community effort and everyone is encouraged to participate by submitting their own data and sample information ( instructions ).  We are developing two main branches of functionality:   Analyze Your Data  Multivariate Comparison of Your MS2 Annotations with Public Data  Co-Analyze your Data via GNPS Molecular Networking   Sample Information Enhrichment Analysis    Analyze All Public Data   Multivariate Analysis of MS2 Annotations  Reanalyze Public Data via GNPS Molecular Networking  Chemical Annotation Enrichment Analysis  Sample Information Enhrichment Analysis", 
+            "title": "Welcome to the Reanalysis of Data User Interface for MS2 (ReDU-MS2)"
         }
     ]
 }
