@@ -17,7 +17,7 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
   
   **IMAGE**
 
-4. Users can click on the **View Files** button (orange) on the right side of that page to view the files in which a particular chemical was annotated.
+4. Users can click on the **View Files** button (orange) on the right side of that page to view the files in which a particular chemical was annotated. **[Query Sample Information](http://dorresteinappshub.ucsd.edu:5005/datalookup)** displays all the sample information related to a single file (requires full path).
 
   **IMAGE**
   
