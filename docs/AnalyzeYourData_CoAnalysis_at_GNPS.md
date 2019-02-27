@@ -1,6 +1,6 @@
-# Analyze Your Data: Co-Analysis at GNPS
+# Analyze Your Data: Coanalysis at GNPS
 
-# Co-Analyze your Data: GNPS Molecular Networking
+# Coanalyze your Data: GNPS Molecular Networking
  
  ### Example Use Cases
  * **Annotate unknown chemicals** in your data by linking it to annotated chemicals in public data from the same sample type (*e.g.* human urine)
@@ -12,20 +12,20 @@
  ### Tutorial
  1. Log into a [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) account.
  2. Navigate to the [ReDU-MS2](http://dorresteinappshub.ucsd.edu:5005/) homepage.
- 3. Click on the **"Select Data to Co-Analyze at GNPS"** text.
+ 3. Click on the **"Select Data to Coanalyze at GNPS"** text.
  
  **IMAGE**
  
- 4. Select the files you wish to include in the co-analysis by clicking the desired group button (*i.e.* G1-G6).
+ 4. Select the files you wish to include in the coanalysis by clicking the desired group button (*i.e.* G1-G6).
    * The orange buttons in the center of the screen correspond to Sample Information categories.
    
    **IMAGE**
    
-   * If filter/s are used, they will appear as red boxed in the Attribute Filters Panel (upper-right corner) of the page.
+   * If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel. 
    
    **IMAGE**
    
-   * When files are selected into a group the corresponding button becomes red and teh number of files is updated in the Selection Summary Panel (upper-left corner).
+   * When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
    
    **IMAGE**
  
@@ -42,7 +42,7 @@
  * The number of groups is currently limited to 6.
  * The suggested limit for molecular networking is a total of **2500 files**.
 
-# Co-Analyze your Data: GNPS Library Search
+# Coanalyze your Data: GNPS Library Search
 
  ### Example Use Cases
  * **Annotate chemicals** in your data via spectral library matching concurrently with public data from the same sample type (*e.g.* human urine) for further analysis.
@@ -53,20 +53,20 @@
  ### Tutorial
  1. Log into a [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) account.
  2. Navigate to the [ReDU-MS2](http://dorresteinappshub.ucsd.edu:5005/) homepage.
- 3. Click on the **"Select Data to Co-Analyze at GNPS"** text.
+ 3. Click on the **"Select Data to Coanalyze at GNPS"** text.
  
  **IMAGE**
  
- 4. Select the files you wish to include in the co-analysis by clicking the **Group 1 (G1)** button.
+ 4. Select the files you wish to include in the coanalysis by clicking the **Group 1 (G1)** button.
    * The orange buttons in the center of the screen correspond to Sample Information categories.
    
    **IMAGE**
    
-   * If filter/s are used, they will appear as red boxed in the Attribute Filters Panel (upper-right corner) of the page.
+   * If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
    
    **IMAGE**
    
-   * When files are selected into a group the corresponding button becomes red and teh number of files is updated in the Selection Summary Panel (upper-left corner).
+   * When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
    
    **IMAGE**
  
@@ -83,7 +83,7 @@
  * All files must be added to **Group 1 (G1)**; there is no support for multiple groups for library search.
  * The suggested limit for GNPS library search is a total of **5000 files**.
 
-# Co-Analyze your Data: Chemical Enrichment Analysis
+# Coanalyze your Data: Chemical Enrichment Analysis
 
  ### Example Use Cases
  * **Explore which chemicals are unique (or common) in your data compared to public data** in order to test or develop hypotheses. *viz.* I see compound A in my blood sample, but it is never found in blood in the public data.
@@ -94,5 +94,5 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
  ### Tutorial
  1. Log into a [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) account.
  2. Navigate to the [ReDU-MS2](http://dorresteinappshub.ucsd.edu:5005/) homepage.
- 3. Click on the **"Select Data to Co-Analyze at GNPS"** text.
+ 3. Click on the **"Select Data to Coanalyze at GNPS"** text.
  4. __*TOOL UNDER DEVELOPMENT*__
