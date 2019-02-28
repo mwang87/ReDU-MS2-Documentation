@@ -16,7 +16,7 @@
 
  **IMAGE**
 
- 4. Select the files you wish to include in the coanalysis by clicking the desired group button (*i.e.* G1-G6).
+ 4. Select the files you wish to include in the coanalysis by clicking the desired group button (*i.e.* G1-G6). If you mis-selected a group you must reload the page.
    * The orange buttons in the center of the screen correspond to Sample Information categories.
 
    **IMAGE**
@@ -33,7 +33,7 @@
 
   **GIF**
 
- 5. Click on the **Set up GNPS Networking** button (blue) at the bottom of the page.
+ 5. Click on the **Set up GNPS Networking** button (blue) at the bottom of the page (this will take you to GNPS where you will be able to add in your own data along with your pre-selected files from ReDU).
  6. **Add your data** to one of the remaining groups (*i.e.* G1-G6).
  6. Launch the molecular networking job with default parameters or customize parameters. Further documentation on GNPS molecular networking is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
@@ -57,7 +57,7 @@
 
  **IMAGE**
 
- 4. Select the files you wish to include in the coanalysis by clicking the **Group 1 (G1)** button.
+ 4. Select the files you wish to include in the coanalysis by clicking the **Group 1 (G1)** button (this is the only group used for library search; multiple attribute files can be added to this group at a time). If you mis-selected a group you must reload the page.
    * The orange buttons in the center of the screen correspond to Sample Information categories.
 
    **IMAGE**
@@ -74,7 +74,7 @@
 
   **GIF**
 
- 5. Click on the **Set up GNPS Library Search** button (blue) at the bottom of the page.
+ 5. Click on the **Set up GNPS Library Search** button (blue) at the bottom of the page (this will take you to GNPS where you will be able to add in your own data along with your pre-selected files from ReDU).
  6. **Add your data** to **Group 1 (G1)**
  6. Launch the library search job with default parameters or customize parameters. Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
