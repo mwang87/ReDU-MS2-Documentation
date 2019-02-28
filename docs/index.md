@@ -8,11 +8,11 @@ This is a community effort and everyone is encouraged to participate by submitti
 
 We are developing two main branches of functionality:
 
-* **Analyze Your Data**
+## Analyze Your Data
   * [Multivariate Comparisons](AnalyzeYourData_MultivariateComparisons) - Multivariate Comparison of Your MS2 Annotations with Public Data
   * [Select Data to Co-Analyze at GNPS](AnalyzeYourData_CoAnalysis_at_GNPS) - Select cohorts of data chosen by sample information to co-analyze with your data: Molecular Networking at GNPS, Library Search at GNPS, Chemical Enrichment Analysis, and Sample Information Enrichment Analysis
 
-* **Analyze Public Data**
+## Analyze Public Data
   * [Multivariate Comparisons](AnalyzePublicData_MultivariateComparisons) - Multivariate Analysis of MS2 Annotations
   * [Chemical Enrichment Analysis](AnalyzePublicData_ChemicalEnrichment) - Explore where chemicals occur in public data
   * [Select Data Re-Analyze at GNPS](PublicData_Reanalysis_at_GNPS)  - Select cohorts of data chosen by sample information to reanalyze by: Molecular Networking at GNPS, Library Search at GNPS, Chemical Enrichment Analysis, and Sample Information Enrichment Analysis
