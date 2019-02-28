@@ -4,15 +4,15 @@
 
 MS2 data, specifically product ion scans, are obtained from user-submitted open-source data files (.mzXML) and analyzed *de novo* using molecular networking and chemical annotations within GNPS.
 
-This is a community effort and everyone is encouraged to participate by submitting their own data and sample information ([instructions](HowtoContribute)).
+This is a community effort and everyone is encouraged to participate by submitting their own data and sample information ([instructions](HowtoContribute.md)).
 
 We are developing two main branches of functionality:
 
 ## Analyze Your Data
-  * [Multivariate Comparisons](AnalyzeYourData_MultivariateComparisons) - Multivariate Comparison of Your MS2 Annotations with Public Data
-  * [Select Data to Co-Analyze at GNPS](AnalyzeYourData_CoAnalysis_at_GNPS) - Select cohorts of data chosen by sample information to co-analyze with your data: Molecular Networking at GNPS, Library Search at GNPS, Chemical Enrichment Analysis, and Sample Information Enrichment Analysis
+  * [Multivariate Comparisons](AnalyzeYourData_MultivariateComparisons.md) - Multivariate Comparison of Your MS2 Annotations with Public Data
+  * [Select Data to Co-Analyze at GNPS](AnalyzeYourData_CoAnalysis_at_GNPS.md) - Select cohorts of data chosen by sample information to co-analyze with your data: Molecular Networking at GNPS, Library Search at GNPS, Chemical Enrichment Analysis, and Sample Information Enrichment Analysis
 
 ## Analyze Public Data
-  * [Multivariate Comparisons](AnalyzePublicData_MultivariateComparisons) - Multivariate Analysis of MS2 Annotations
-  * [Chemical Enrichment Analysis](AnalyzePublicData_ChemicalEnrichment) - Explore where chemicals occur in public data
-  * [Select Data Re-Analyze at GNPS](PublicData_Reanalysis_at_GNPS)  - Select cohorts of data chosen by sample information to reanalyze by: Molecular Networking at GNPS, Library Search at GNPS, Chemical Enrichment Analysis, and Sample Information Enrichment Analysis
+  * [Multivariate Comparisons](AnalyzePublicData_MultivariateComparisons.md) - Multivariate Analysis of MS2 Annotations
+  * [Chemical Enrichment Analysis](AnalyzePublicData_ChemicalEnrichment.md) - Explore where chemicals occur in public data
+  * [Select Data Re-Analyze at GNPS](PublicData_Reanalysis_at_GNPS.md)  - Select cohorts of data chosen by sample information to reanalyze by: Molecular Networking at GNPS, Library Search at GNPS, Chemical Enrichment Analysis, and Sample Information Enrichment Analysis
