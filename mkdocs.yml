@@ -1,6 +1,7 @@
 site_name: Sample Information Documentation
 pages:
     - Sample Information Introduction: index.md
+    - How to Contribute: HowtoContribute.md
     - Analyze Your Data:
         - Multivariate: AnalyzeYourData_MultivariateComparisons.md
         - Co-Analysis at GNPS: AnalyzeYourData_CoAnalysis_at_GNPS.md
