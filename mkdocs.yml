@@ -1,6 +1,13 @@
 site_name: Sample Information Documentation
 pages:
     - Sample Information Introduction: index.md
+    - Analyze Your Data:
+        - Multivariate: AnalyzeYourData_MultivariateComparisons.md
+        - Co-Analysis at GNPS: AnalyzeYourData_CoAnalysis_at_GNPS.md
+    - Analyze Public Data:
+        - Multivariate: AnalyzePublicData_MultivariateComparisons.md
+        - Chemical Enrichment: AnalyzePublicData_ChemicalEnrichment.md
+        - Re-analysis at GNPS: PublicData_Reanalysis_at_GNPS.md
 theme:
     name: material
     #name: readthedocs
