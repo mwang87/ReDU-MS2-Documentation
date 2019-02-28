@@ -9,7 +9,7 @@
 ### Summary
  [Molecular Networking](https://www.nature.com/articles/nbt.3597?WT.ec_id=NBT-201608&spMailingID=52025126&spUserID=ODkwMTM2NjI1NQS2&spJobID=981583612&spReportId=OTgxNTgzNjEyS0) is performed in GNPS. Users can co-analyze their data with public data by selecting files using a simple file selector. The file selector allows one to select (and filter) files based on the sample information provided with every file, and place multiple types of files into one of 6 different groups (*i.e.* G1-G6). A single button click on "Set up GNPS Networking" loads all the files and launches a GNPS molecular job; an email will be sent when the job has finished. Further documentation on GNPS molecular networking is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
- ### Tutorial
+### Tutorial
  1. Log into a [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) account.
  2. Navigate to the [ReDU-MS2](http://dorresteinappshub.ucsd.edu:5005/) homepage.
  3. Click on the **"Select Data to Coanalyze at GNPS"** text.
@@ -37,17 +37,17 @@
  6. **Add your data** to one of the remaining groups (*i.e.* G1-G6).
  6. Launch the molecular networking job with default parameters or customize parameters. Further documentation on GNPS molecular networking is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
- ### Notes:
+### Notes:
  * You must have an account at [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) and be signed in prior to launching a job.
  * The number of groups is currently limited to 6.
  * The suggested limit for molecular networking is a total of **2500 files**.
 
-### Coanalyze your Data: GNPS Library Search
+## Coanalyze your Data: GNPS Library Search
 
- ### Example Use Cases
+### Example Use Cases
  * **Annotate chemicals** in your data via spectral library matching concurrently with public data from the same sample type (*e.g.* human urine) for further analysis.
 
- ### Summary
+### Summary
  Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) by comparing MS2 spectra, specifically product ion spectra, with reference MS2 fragmentation patterns (GNPS integrates of the majority of public reference MS2 spectra library). GNPS annotations via spectral reference matching are considered level 2 (putative annotation based on spectral library similarity) or 3 (putatively characterized compound class based on spectral similarity to known compounds of a chemical class) by the 2007 metabolomics standard initiative [PMID: 24039616](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772505/). The **library search results** are displayed on GNPS which includes the option of downloading a table with every chemical annotation versus the files it was detected in (cells of the matrix reflect detected, 1, or not detected, 0). Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
 ### Tutorial
