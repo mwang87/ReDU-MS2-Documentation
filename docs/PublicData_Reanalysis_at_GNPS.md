@@ -21,11 +21,11 @@
    
    **IMAGE**
    
-   * If filter/s are used, they will appear as red boxed in the Attribute Filters Panel (upper-right corner) of the page.
+   * If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
    
    **IMAGE**
    
-   * When files are selected into a group the corresponding button becomes red and teh number of files is updated in the Selection Summary Panel (upper-left corner).
+   * When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
    
    **IMAGE**
  
@@ -63,11 +63,11 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
    
    **IMAGE**
    
-   * If filter/s are used, they will appear as red boxed in the Attribute Filters Panel (upper-right corner) of the page.
+   * If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
    
    **IMAGE**
    
-   * When files are selected into a group the corresponding button becomes red and teh number of files is updated in the Selection Summary Panel (upper-left corner).
+   * When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
    
    **IMAGE**
  
@@ -103,7 +103,8 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
   
   **IMAGE**
   
-  * If filter/s are used, they will appear as red boxed in the Attribute Filters Panel (upper-right corner) of the page.
+  * If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
+
   
   **IMAGE**
   
@@ -121,7 +122,7 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
 
 ### Notes:
 * GNPS annotations via spectral reference matching are considered level 2 (putative annotation based on spectral library similarity) or 3 (putatively characterized compound class based on spectral similarity to known compounds of a chemical class) by the 2007 metabolomics standard initiative [PMID: 24039616](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772505/).
-* **The same chemical can have multiple GNPS annotations.** Slight variation in the MS2 spectra (*m/z* or abundance) cause the pattern to match difference reference MS2 spectra for the same chemical. Users are highly-encouraged to double check their findings.
+* **The same chemical can have multiple GNPS annotations.** Slight variation in the MS2 spectra (*m/z* or abundance) cause the pattern to match different reference MS2 spectra for the same chemical. Users are highly-encouraged to double check their findings.
 
 # Reanalyze Public Data: Sample Information Enrichment Analysis
 
@@ -142,11 +143,11 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
   
   **IMAGE**
   
-  * If filter/s are used, they will appear as red boxed in the Attribute Filters Panel (upper-right corner) of the page.
+  * If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
   
   **IMAGE**
   
-  * When files are selected into a group the corresponding button becomes red and teh number of files is updated in the Selection Summary Panel (upper-left corner).
+  * When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
   
   **IMAGE**
 
@@ -158,10 +159,10 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
 
   **IMAGE**
 
-5. Click on the **View Enrichment"** button (orange) on the right side of the page for the chemical annotation of interest. *KNOWN BUG: the number of files does not update to reflect user selection*
+5. Click on the **"View Enrichment"** button (orange) on the right side of the page for the chemical annotation of interest. *KNOWN BUG: the number of files does not update to reflect user selection*
 
   **IMAGE**
 
 ### Notes:
 * GNPS annotations via spectral reference matching are considered level 2 (putative annotation based on spectral library similarity) or 3 (putatively characterized compound class based on spectral similarity to known compounds of a chemical class) by the 2007 metabolomics standard initiative [PMID: 24039616](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772505/).
-* **The same chemical can have multiple GNPS annotations.** Slight variation in the MS2 spectra (*m/z* or abundance) cause the pattern to match difference reference MS2 spectra for the same chemical. Users are highly-encouraged to double check their findings.
+* **The same chemical can have multiple GNPS annotations.** Slight variation in the MS2 spectra (*m/z* or abundance) cause the pattern to match different reference MS2 spectra for the same chemical. Users are highly-encouraged to double check their findings.
