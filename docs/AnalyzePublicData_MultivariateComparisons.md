@@ -30,3 +30,4 @@
  * The panels are interactive and will update when filters and points are colored based on sample information.
  * Detailed information about each file can be obtained by left-clicking the point (this information can be tabulated by clicking the button to the right of the "Exclude" button)
  * The data are updated periodically and will not display your own data immediately - please use the "Multivariate Comparisons" option under the "Analyze Your Data" if you wish to compare your data to the public data.
+ * Currently the PCA plot only reflects C18 (positive mode) data.
