@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2019-02-27</lastmod>
+     <lastmod>2019-05-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/HowtoContribute/</loc>
-     <lastmod>2019-02-27</lastmod>
+     <lastmod>2019-05-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -21,13 +21,13 @@
         
     <url>
      <loc>/AnalyzeYourData_MultivariateComparisons/</loc>
-     <lastmod>2019-02-27</lastmod>
+     <lastmod>2019-05-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/AnalyzeYourData_CoAnalysis_at_GNPS/</loc>
-     <lastmod>2019-02-27</lastmod>
+     <lastmod>2019-05-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -37,22 +37,30 @@
         
     <url>
      <loc>/AnalyzePublicData_MultivariateComparisons/</loc>
-     <lastmod>2019-02-27</lastmod>
+     <lastmod>2019-05-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/AnalyzePublicData_ChemicalEnrichment/</loc>
-     <lastmod>2019-02-27</lastmod>
+     <lastmod>2019-05-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/PublicData_Reanalysis_at_GNPS/</loc>
-     <lastmod>2019-02-27</lastmod>
+     <lastmod>2019-05-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+    <url>
+     <loc>/contact/</loc>
+     <lastmod>2019-05-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>
