@@ -1,11 +1,11 @@
-# Analyze All Public Data: Explore Chemical Enrichment
+# Explore Chemical Annotations and Associated Sample Information in all Public Data
 
 ## Example Use Cases
 * **Explore which chemicals have been detected in the public data** in order to test or develop hypotheses, and determine the specific files in the public data that are relevant for follow up analysis. *viz.* I'm interested in the analysis of piperine (a chemical found in black pepper), but I don't know if I can detect it using mass spectrometry; has this chemical been found in any of the public data?
-* **Launch sample information enrichment analysis** on a specific chemical annotation to test or develop hypotheses, *viz.* I'm interested in the analysis of piperine (a chemical found in black pepper), but I don't know what types of samples I should look in; launching sample information enrichment analysis indicates that it is detected in food, human feces, etc.
+* **Launch sample information enrichment** on a specific chemical annotation to test or develop hypotheses, *viz.* I'm interested in the analysis of piperine (a chemical found in black pepper), but I don't know what types of samples I should look in; launching sample information enrichment analysis indicates that it is detected in food, human feces, etc.
 
 ## Summary
-Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) by comparing MS2 spectra, specifically product ion spectra, with reference MS2 fragmentation patterns (GNPS integrates the majority of public reference MS2 spectra library). **All chemical annotations that originate from public data are tabulated along with the number of files, a button that then provides the individual file names, and a button that lanches a sample information enrichment analysis.** Further documentation on GNPS is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
+Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) by comparing MS2 spectra, specifically product ion spectra, with reference MS2 fragmentation patterns (GNPS integrates the majority of public reference MS2 spectra library). **All chemical annotations that originate from public data are tabulated along with the number of files, a button that then provides the individual file names, and a button that lanches a sample information enrichment.** Further documentation on GNPS is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
 ## Tutorial
 1. Navigate to the [ReDU-MS2](http://dorresteinappshub.ucsd.edu:5005/) homepage.
