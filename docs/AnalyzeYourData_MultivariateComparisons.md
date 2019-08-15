@@ -20,4 +20,4 @@ The common denominator of all mass spectrometry data is the chemicals detected. 
  
  ![Enter Task ID](/images/task_id_entry.jpg)
  
- 4. For cababilities of data exploration tool, please view (LINK)
+ 4. For cababilities of data exploration tool, please view [Global Multivariate Analysis Documentation](https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_MultivariateComparisons/)
