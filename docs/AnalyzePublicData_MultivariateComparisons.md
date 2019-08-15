@@ -14,7 +14,7 @@
 
  3. Each file is plotted as a point in the PCA score plot (upper panel) and colored based on the sample information. Users can change the PC axes displayed using the drop down.
 
-   **GIF**
+![Axis Change GIF](/images/axis_change.gif)
 
  4. Users can change how the points are colored in the PCA score plot (and correspond plots) based on sample information using the drop down.
 
