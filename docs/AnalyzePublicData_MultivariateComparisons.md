@@ -18,11 +18,11 @@
 
  4. Users can change how the points are colored in the PCA score plot based on a sample information category selected using the drop down menu.
 
-![Color Points](/images/axis_change.gif)
+![Color Points](/images/color_change.gif)
 
  5. Users can filter which samples are plotted in the PCA score plot based on a sample information cateogry using the drop down menu.
 
-   **GIF**
+![Sample Filtration](/images/filter_samples.gif)
 
 ## Notes:
  * The panels are interactive and will update when filters and points are colored based on sample information.
