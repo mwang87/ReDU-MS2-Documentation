@@ -1,15 +1,16 @@
-site_name: ReDU Sample Information Documentation
+site_name: ReDU Documentation
 pages:
-    - ReDU Sample Information Introduction: index.md
+    - ReDU Introduction: index.md
     - How to Contribute: HowtoContribute.md
     - Analyze Your Data:
-        - Multivariate: AnalyzeYourData_MultivariateComparisons.md
+        - Multivariate - Project Your Data: AnalyzeYourData_MultivariateComparisons.md
         - Co-Analysis at GNPS: AnalyzeYourData_CoAnalysis_at_GNPS.md
     - Analyze Public Data:
-        - Multivariate: AnalyzePublicData_MultivariateComparisons.md
-        - Chemical Explorer: AnalyzePublicData_ChemicalEnrichment.md
+        - Multivariate - Explore Public Data: AnalyzePublicData_MultivariateComparisons.md
+        - Chemical Explorer and Sample Information Association: AnalyzePublicData_ChemicalEnrichment.md
         - Re-analysis at GNPS: PublicData_Reanalysis_at_GNPS.md
     - Contact: contact.md
+    - FAQ: FAQ.md
 theme:
     name: material
     #name: readthedocs
