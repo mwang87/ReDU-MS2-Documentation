@@ -10,7 +10,7 @@
  1. Navigate to the [ReDU-MS2](http://dorresteinappshub.ucsd.edu:5005/) homepage.
  2. Click on the **"Explore Multivariate Analysis of Public Data"** text under the **"Analyze Public Data"** section.
 
- **IMAGE**
+ ![Homepage Image Global Multivariate](/images/redu_homepage.jpg)
 
  3. Each file is plotted as a point in the PCA score plot (upper panel) and colored based on the sample information. Users can change the PC axes displayed using the drop down.
 
