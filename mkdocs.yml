@@ -7,7 +7,7 @@ pages:
         - Co-Analysis at GNPS: AnalyzeYourData_CoAnalysis_at_GNPS.md
     - Analyze Public Data:
         - Multivariate - Explore Public Data: AnalyzePublicData_MultivariateComparisons.md
-        - Chemical Explorer and Sample Information Association: AnalyzePublicData_ChemicalEnrichment.md
+        - Chemical Explorer and Sample Information Association: AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md
         - Re-analysis at GNPS: PublicData_Reanalysis_at_GNPS.md
     - Contact: contact.md
     - FAQ: FAQ.md
