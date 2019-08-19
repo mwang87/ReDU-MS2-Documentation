@@ -29,7 +29,7 @@
   - **One template is required per MassIVE ID.**
 - Save a copy of the sample information template by going to **"File - Make a copy"** into a personal google drive
 
-<img src="/images/Sample_Template_MakeACopy.gif" height="400" width="500">
+<img src= "/images/Sample_Template_MakeACopy.gif" height="400" width="500">
   
 #### 2B - Fill the Sample Information Template
 - Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
