@@ -36,7 +36,7 @@
     
     
       
-        <title>Multivariate - ReDU Sample Information Documentation</title>
+        <title>Multivariate - Project Your Data - ReDU Documentation</title>
       
     
     
@@ -80,7 +80,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href=".." title="ReDU Sample Information Documentation" class="md-header-nav__button md-logo">
+        <a href=".." title="ReDU Documentation" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -94,10 +94,10 @@
           
             
               <span class="md-header-nav__topic">
-                ReDU Sample Information Documentation
+                ReDU Documentation
               </span>
               <span class="md-header-nav__topic">
-                Multivariate
+                Multivariate - Project Your Data
               </span>
             
           
@@ -157,7 +157,7 @@
         <i class="md-icon"></i>
       
     </span>
-    ReDU Sample Information Documentation
+    ReDU Documentation
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -168,8 +168,8 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="ReDU Sample Information Introduction" class="md-nav__link">
-      ReDU Sample Information Introduction
+    <a href=".." title="ReDU Introduction" class="md-nav__link">
+      ReDU Introduction
     </a>
   </li>
 
@@ -222,11 +222,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Multivariate
+        Multivariate - Project Your Data
       </label>
     
-    <a href="./" title="Multivariate" class="md-nav__link md-nav__link--active">
-      Multivariate
+    <a href="./" title="Multivariate - Project Your Data" class="md-nav__link md-nav__link--active">
+      Multivariate - Project Your Data
     </a>
     
       
@@ -256,13 +256,6 @@
         <li class="md-nav__item">
   <a href="#tutorial" title="Tutorial" class="md-nav__link">
     Tutorial
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" title="Notes:" class="md-nav__link">
-    Notes:
   </a>
   
 </li>
@@ -320,8 +313,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../AnalyzePublicData_MultivariateComparisons/" title="Multivariate" class="md-nav__link">
-      Multivariate
+    <a href="../AnalyzePublicData_MultivariateComparisons/" title="Multivariate - Explore Public Data" class="md-nav__link">
+      Multivariate - Explore Public Data
     </a>
   </li>
 
@@ -332,8 +325,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../AnalyzePublicData_ChemicalEnrichment/" title="Chemical Explorer" class="md-nav__link">
-      Chemical Explorer
+    <a href="../AnalyzePublicData_ChemicalExplorerSampleInformationAssociation/" title="Chemical Explorer and Sample Information Association" class="md-nav__link">
+      Chemical Explorer and Sample Information Association
     </a>
   </li>
 
@@ -363,6 +356,18 @@
   <li class="md-nav__item">
     <a href="../contact/" title="Contact" class="md-nav__link">
       Contact
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../FAQ/" title="FAQ" class="md-nav__link">
+      FAQ
     </a>
   </li>
 
@@ -408,13 +413,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#notes" title="Notes:" class="md-nav__link">
-    Notes:
-  </a>
-  
-</li>
-      
       
       
       
@@ -439,14 +437,25 @@
 <li><strong>Explore if interesting differences exist</strong> in your data compared to the public data at the highest-level. For example, does urine from my cohort of diabetes subjects looks similar to other data from different diseases?</li>
 </ul>
 <h3 id="summary">Summary</h3>
-<p>The common denominator of all mass spectrometry data is the chemicals detected. In spite of the numerious confounders (<em>e.g.</em> instrument type, user, year, and extraction method), the chemicals that are detected and annotated from samples is the ground truth of any experiment. The <strong>MS2 data, specifically product ion scans, are extracted from the public data and analyzed <em>de novo</em> in GNPS</strong>, and in doing so provide the chemical annotations based on library spectral matching for each file. <strong>Principal components analysis (PCA)</strong> was used to analyze the results in an unsupervised manner. The results are plotted using Tableau which provides interactive plotting capabilities to explore the data via a PCA score plot (upper panel), a scatter plot of the number of MS2 spectra per file versus how many of those MS2 spectra were annotated (lower-left panel), and a stacked histogram of the number of chemical annotations (lower-right panel).</p>
+<p>The common denominator of all mass spectrometry data is the chemicals detected. In spite of the numerious confounders (<em>e.g.</em> instrument type, user, year, and extraction method), the chemicals that are detected and annotated from samples is the ground truth of any experiment. The <strong>MS2 data, specifically product ion scans, are extracted from the public data and analyzed <em>de novo</em> in GNPS</strong>, and in doing so provide the chemical annotations based on library spectral matching for each file. <strong>Principal components analysis (PCA)</strong> was used to analyze the results in an unsupervised manner. The results are plotted using Emperor visualization which provides interactive plotting capabilities to explore the data via a PCA score plot. Using the task ID from the GNPS job previously run, your data will be projected on to a precalculated PCA of all ReDU data. </p>
 <h3 id="tutorial">Tutorial</h3>
 <ol>
-<li>Log into a <a href="https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp">GNPS</a> account.</li>
+<li>
+<p>Log into a <a href="https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp">GNPS</a> account and perfrom a library search. Once the job has finished running, make note of the task ID found in the URL.</p>
+<p><img alt="Find Task ID" src="../images/find_task_id.jpg" /></p>
+</li>
+<li>
+<p>Navigate to the <a href="http://dorresteinappshub.ucsd.edu:5005/">ReDU-MS2</a> homepage and click "Compare Your Data to Public Data via Multivariate Analysis" under the Analyze Your Data Section.</p>
+<p><img alt="Homepage Image Public Multivariate" src="../images/redu_home.jpg" /></p>
+</li>
+<li>
+<p>Enter the task ID of the previously run GNPS job into the bar, and click the "Create PCA".</p>
+<p><img alt="Enter Task ID" src="../images/task_id_entry.jpg" /></p>
+</li>
+<li>
+<p>For cababilities of data exploration tool, please view <a href="https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_MultivariateComparisons/">Global Multivariate Analysis Documentation</a></p>
+</li>
 </ol>
-<p>perform library search with default parameters.... take job link from results page put into interface - <strong>still need to BUILD</strong></p>
-<p>?. Navigate to the <a href="http://dorresteinappshub.ucsd.edu:5005/">ReDU-MS2</a> homepage.</p>
-<h3 id="notes">Notes:</h3>
                 
                   
                 

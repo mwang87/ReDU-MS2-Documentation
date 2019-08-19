@@ -36,7 +36,7 @@
     
     
       
-        <title>Multivariate - ReDU Sample Information Documentation</title>
+        <title>Multivariate - Explore Public Data - ReDU Documentation</title>
       
     
     
@@ -80,7 +80,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href=".." title="ReDU Sample Information Documentation" class="md-header-nav__button md-logo">
+        <a href=".." title="ReDU Documentation" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -94,10 +94,10 @@
           
             
               <span class="md-header-nav__topic">
-                ReDU Sample Information Documentation
+                ReDU Documentation
               </span>
               <span class="md-header-nav__topic">
-                Multivariate
+                Multivariate - Explore Public Data
               </span>
             
           
@@ -157,7 +157,7 @@
         <i class="md-icon"></i>
       
     </span>
-    ReDU Sample Information Documentation
+    ReDU Documentation
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -168,8 +168,8 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="ReDU Sample Information Introduction" class="md-nav__link">
-      ReDU Sample Information Introduction
+    <a href=".." title="ReDU Introduction" class="md-nav__link">
+      ReDU Introduction
     </a>
   </li>
 
@@ -211,8 +211,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../AnalyzeYourData_MultivariateComparisons/" title="Multivariate" class="md-nav__link">
-      Multivariate
+    <a href="../AnalyzeYourData_MultivariateComparisons/" title="Multivariate - Project Your Data" class="md-nav__link">
+      Multivariate - Project Your Data
     </a>
   </li>
 
@@ -270,11 +270,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Multivariate
+        Multivariate - Explore Public Data
       </label>
     
-    <a href="./" title="Multivariate" class="md-nav__link md-nav__link--active">
-      Multivariate
+    <a href="./" title="Multivariate - Explore Public Data" class="md-nav__link md-nav__link--active">
+      Multivariate - Explore Public Data
     </a>
     
       
@@ -332,8 +332,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../AnalyzePublicData_ChemicalEnrichment/" title="Chemical Explorer" class="md-nav__link">
-      Chemical Explorer
+    <a href="../AnalyzePublicData_ChemicalExplorerSampleInformationAssociation/" title="Chemical Explorer and Sample Information Association" class="md-nav__link">
+      Chemical Explorer and Sample Information Association
     </a>
   </li>
 
@@ -363,6 +363,18 @@
   <li class="md-nav__item">
     <a href="../contact/" title="Contact" class="md-nav__link">
       Contact
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../FAQ/" title="FAQ" class="md-nav__link">
+      FAQ
     </a>
   </li>
 
@@ -433,40 +445,36 @@
                 
                 
                 <h1 id="analyze-public-data-explore-multivariate-analysis-of-public-data">Analyze Public Data: Explore Multivariate Analysis of Public Data</h1>
-<h2 id="example-use-cases">Example Use Cases</h2>
+<h3 id="example-use-cases">Example Use Cases</h3>
 <ul>
 <li><strong>Explore public data</strong> by comparing the chemicals annotated in samples, analyzed by principal components analysis (PCA), <em>viz.</em> human breast milk appears to be most similar to food given their proximity in the PCA score plot.</li>
 <li><strong>Begin to explore high-level questions</strong> that remain unanswered when attempting to compare public mass spectrometry data. For example, does urine always look, chemically, like urine year after year, across instruments, across extraction methods, etc?</li>
 </ul>
-<h2 id="summary">Summary</h2>
-<p>The common denominator of all mass spectrometry data is the chemicals detected. In spite of the numerous confounders (<em>e.g.</em> instrument type, user, year, and extraction method), the chemicals that are detected and annotated from samples is the ground truth of any experiment. The <strong>MS2 data, specifically product ion scans, are extracted from the public data and analyzed <em>de novo</em> in GNPS</strong>, and in doing so provide the chemical annotations based on library spectral matching for each file. <strong>Principal components analysis (PCA)</strong> was used to analyze the results in an unsupervised manner. The results are plotted using Tableau which provides interactive plotting capabilities to explore the data via a PCA score plot (upper panel), a scatter plot of the number of MS2 spectra per file versus how many of those MS2 spectra were annotated (lower-left panel), and a stacked histogram of the number of chemical annotations (lower-right panel).</p>
-<h2 id="tutorial">Tutorial</h2>
+<h3 id="summary">Summary</h3>
+<p>The common denominator of all mass spectrometry data is the chemicals detected. In spite of the numerous confounders (<em>e.g.</em> instrument type, user, year, and extraction method), the chemicals that are detected and annotated from samples is the ground truth of any experiment. The <strong>MS2 data, specifically product ion scans, are extracted from the public data and analyzed <em>de novo</em> in GNPS</strong>, and in doing so provide the chemical annotations based on library spectral matching for each file. <strong>Principal components analysis (PCA)</strong> was used to analyze the results in an unsupervised manner. The results are plotted using Emperor which provides interactive plotting capabilities to explore the data via a PCA score plot. Using Emperor, the user has the ability to change the plot axes, color points by sample information, and filter which data point are plotted based on sample information.</p>
+<h3 id="tutorial">Tutorial</h3>
 <ol>
-<li>Navigate to the <a href="http://dorresteinappshub.ucsd.edu:5005/">ReDU-MS2</a> homepage.</li>
-<li>Click on the <strong>"Explore Multivariate Analysis of Public Data"</strong> text under the <strong>"Analyze Public Data"</strong> section.</li>
-</ol>
-<p><strong>IMAGE</strong></p>
-<ol>
-<li>Each file is plotted as a point in the PCA score plot (upper panel) and colored based on the sample information. Users can change the PC axes displayed using the drop down.</li>
-</ol>
-<p><strong>GIF</strong></p>
-<ol>
-<li>Users can change how the points are colored in the PCA score plot (and correspond plots) based on sample information using the drop down.</li>
-</ol>
-<p><strong>GIF</strong></p>
-<ol>
-<li>Users can filter which samples are plotted in the PCA score plot (and correspond plots) based on sample information using the drop down.</li>
-</ol>
-<p><strong>GIF</strong></p>
-<ol>
-<li>Plots can be shared and downloaded using the buttons in the lower-right corner of the page.</li>
+<li>Navigate to the <a href="https://redu.ucsd.edu/">ReDU-MS2</a> homepage.</li>
+<li>
+<p>Click on the <strong>"Explore Multivariate Analysis of Public Data"</strong> text under the <strong>"Analyze Public Data"</strong> section.</p>
+<p><img src= "/images/redu_homepage.jpg"></p>
+</li>
+<li>
+<p>Each file is plotted as a point in the PCA score plot. Users can change the PC axes displayed using the drop down.</p>
+<p><img alt="Axis Change Image" src="../images/axis_change.gif" /></p>
+</li>
+<li>
+<p>Users can change how the points are colored in the PCA score plot based on a sample information category selected using the drop down menu.</p>
+<p><img alt="Color Points" src="../images/color_change.gif" /></p>
+</li>
+<li>
+<p>Users can filter which samples are plotted in the PCA score plot based on a sample information cateogry using the drop down menu.</p>
+<p><img alt="Sample Filtration" src="../images/filter_samples.gif" /></p>
+</li>
 </ol>
 <h2 id="notes">Notes:</h2>
 <ul>
-<li>The panels are interactive and will update when filters and points are colored based on sample information.</li>
-<li>Detailed information about each file can be obtained by left-clicking the point (this information can be tabulated by clicking the button to the right of the "Exclude" button)</li>
 <li>The data are updated periodically and will not display your own data immediately - please use the "Multivariate Comparisons" option under the "Analyze Your Data" if you wish to compare your data to the public data.</li>
-<li>Currently the PCA plot only reflects C18 (positive mode) data.</li>
 </ul>
                 
                   
@@ -503,13 +511,13 @@
           </a>
         
         
-          <a href="../AnalyzePublicData_ChemicalEnrichment/" title="Chemical Explorer" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../AnalyzePublicData_ChemicalExplorerSampleInformationAssociation/" title="Chemical Explorer and Sample Information Association" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Chemical Explorer
+                Chemical Explorer and Sample Information Association
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
