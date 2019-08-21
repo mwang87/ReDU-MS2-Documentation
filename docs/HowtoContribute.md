@@ -29,7 +29,7 @@
   - **One template is required per MassIVE ID.**
 - Save a copy of the sample information template by going to **"File - Make a copy"** into a personal google drive
 
-<img src= "/images/Sample_Template_MakeACopy.gif" height="400" width="500">
+![Sample Template_Copy](images/Sample_Template_MakeACopy.gif)
   
 #### 2B - Fill the Sample Information Template
 - Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
@@ -37,13 +37,13 @@
   - When copying and pasting from another spreadsheet, please **copy + special paste** so as to not chance the cell formulae or formatting.
   - ReDU uses a controlled vocublary - the accepted terms are listed in the "ReDUMS2_controlled_vocabulary" tab per column. **If you require terms that are not avaliable, please raise an issue on [GitHub](https://github.com/mwang87/ReDU-MS2-GNPS).**
 
-<img src="/images/Sample_Template_Fill.gif" height="400" width="500">
+![Sample Template_Fill](images/Sample_Template_Fill.gif)
 
 #### 2C - Download the Sample Information Template
 - When complete, **delete all extra rows** of the template.
 - Download from Google Sheets as a tab separated text file using **"File-Download as" and selecting "Tab-seperated values..."**
 
-<img src="/images/Sample_Template_deleterows.gif" height="400" width="500">
+![Sample Template_DeleteRows](images/Sample_Template_deleterows.gif)
 
 ### Step 3 - Validation
 
@@ -54,7 +54,7 @@
   - Non-adherant information is displayed in the "Sample Information Validation Errors" panel - the row, column, and the accepted terms are listed.
 - If errors occur, then please correct the non-adherant information in the template and repeat from 2C
 
-<img src="/images/Validate.gif" height="400" width="500">
+![Sample Validate](images/Validate.gif)
 
 #### 3B - Rename the Sample Information File
 - Upon passing the validator, **rename the file** to be exactly **"gnps_metadata.tsv"**
