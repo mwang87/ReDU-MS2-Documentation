@@ -10,19 +10,19 @@
  1. Navigate to the [ReDU-MS2](https://redu.ucsd.edu/) homepage.
  2. Click on the **"Explore Multivariate Analysis of Public Data"** text under the **"Analyze Public Data"** section.
 
-    <img src= "/images/redu_homepage.jpg">
+    ![Redu_Homepage_Link_Location](images/redu_homepage.jpg)
 
  3. Each file is plotted as a point in the PCA score plot. Users can change the PC axes displayed using the drop down.
 
-    ![Axis Change Image](/images/axis_change.gif)
+    ![Axis Change Image](images/axis_change.gif)
 
  4. Users can change how the points are colored in the PCA score plot based on a sample information category selected using the drop down menu.
 
-    ![Color Points](/images/color_change.gif)
+    ![Color Points](images/color_change.gif)
 
  5. Users can filter which samples are plotted in the PCA score plot based on a sample information cateogry using the drop down menu.
 
-    ![Sample Filtration](/images/filter_samples.gif)
+    ![Sample Filtration](images/filter_samples.gif)
 
 ## Notes:
  * The data are updated periodically and will not display your own data immediately - please use the "Multivariate Comparisons" option under the "Analyze Your Data" if you wish to compare your data to the public data.

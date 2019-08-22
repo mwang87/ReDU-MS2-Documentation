@@ -14,7 +14,7 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
 4. Users can click on the **View Files** button (orange) on the right side of that page to view the files in which a particular chemical was annotated. **[File Query for Sample Information](https://redu.ucsd.edu/datalookup)** displays all the sample information related to a single file (requires full path).
 5. Users can explore **Sample Information Associations** by clicking the **View Associations** button (orange) on the right side of the page.
 
-<img src="/images/SampleInfoAssociation.gif" height="400" width="500">
+    ![Sample Association Info](images/SampleInfoAssociation.gif)
 
 ## Notes:
 * GNPS annotations via spectral reference matching are considered level 2 (putative annotation based on spectral library similarity) or level 3 (putatively characterized compound class based on spectral similarity to known compounds of a chemical class) by the 2007 metabolomics standard initiative [PMID: 24039616](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3772505/).
