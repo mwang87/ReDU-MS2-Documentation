@@ -24,7 +24,7 @@
  6. **Add your data** to one of the remaining groups (*i.e.* G1-G6).
  7. Launch the molecular networking job with default parameters or customize parameters. Further documentation on GNPS molecular networking is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
-<img src="/images/File_Selector.gif" height="400" width="500">
+![File Selector](images/File_Selector.gif)
 
 ### Notes:
  * You must have an account at [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and be signed in prior to launching a job.
@@ -52,8 +52,6 @@ A **GNPS library search** has been performed for all files with sample informati
  5. Click on the **Set Up Co-Analysis with GNPS Library Search** button (blue) at the bottom of the page.
  6. **Add your data** to **Group 1 (G1)**
  7. Launch the library search job with default parameters or customize parameters. Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
-
-<img src="/images/File_Selector.gif" height="400" width="500">
 
 ## Notes:
  * You must have an account at [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and be signed in prior to launching a job.

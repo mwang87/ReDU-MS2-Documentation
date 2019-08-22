@@ -25,7 +25,7 @@
  5. Click on the **Set Up Re-Analysis with GNPS Networking** button (blue) at the bottom of the page.
  6. Launch the molecular networking job with default parameters or customize parameters. Further documentation on GNPS molecular networking is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
  
-<img src="/images/File_Selector.gif" height="400" width="500">
+![File Selector](images/File_Selector.gif)
 
  ### Notes
  * You must have an account at [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and be signed in prior to launching a job.
@@ -52,7 +52,7 @@ A **GNPS library search** has been performed for all files with sample informati
  5. Click on the **Set Up Re-Analysis with GNPS Library Search** button (blue) at the bottom of the page.
  6. Launch the library search job with default parameters or customize parameters. Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
-<img src="/images/File_Selector.gif" height="400" width="500">
+![File Selector](images/File_Selector.gif)
 
 ### Notes
  * You must have an account at [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and be signed in prior to launching a job.
@@ -76,7 +76,7 @@ A **GNPS library search** has been performed for all files with sample informati
    * When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
  4. Click on the **Launch Chemical Enrichment Analysis** button (blue) at the bottom of the page.
 
-<img src="/images/File_Selector.gif" height="400" width="500">
+![File Selector](images/File_Selector.gif)
 
 ## Sample Information Analysis
 
@@ -96,4 +96,4 @@ A **GNPS library search** has been performed for all files with sample informati
  4. Click on the **Launch Sample Information Association** button (blue) at the bottom of the page.
  5. Click on the **"View Enrichment"** button (orange) on the right side of the page for the chemical annotation of interest. *KNOWN BUG: the number of files does not update to reflect user selection*
 
-<img src="/images/File_Selector.gif" height="400" width="500">
+![File Selector](images/File_Selector.gif)
