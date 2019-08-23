@@ -15,7 +15,7 @@
   
 ## Analyze Public Data
 * [Explore Multivariate Analysis of Public Data](AnalyzePublicData_MultivariateComparisons.md) - Explore precalculated principal components analysis score plot of public data. <br>
-* [Explore Chemical Annotations and Associated Sample Information in all Public Data](AnalyzePublicData_ChemicalEnrichment.md) - Precalculated using public data and default GNPS parameters <br>
+* [Explore Chemical Annotations and Associated Sample Information in all Public Data](AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md) - Precalculated using public data and default GNPS parameters <br>
 * [Re-analyze Public Data at GNPS](PublicData_Reanalysis_at_GNPS.md) - Select files using sample information and assemble public data in groups as desired using the file selector. The following co-analyses can be launched:
   * Molecular Networking at GNPS
   * Library Search at GNPS
