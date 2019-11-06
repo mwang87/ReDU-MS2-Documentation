@@ -1,7 +1,10 @@
 # Frequently Asked Questions (FAQ) by Topic
 
 ## ReDU Data Contribution
-* <br>
+**Troubleshooting** - Sample information validation errors
+* Values are treated as numbers when the fill down function is used causing +1 to be added to each row. Commonly encountered in the MassiveID column.
+* Values are not accepted terms. Accepted terms are displayed in the validation error. If the desired term is not avaliable, please add an issue to [GitHub](https://github.com/mwang87/ReDU-MS2-GNPS).
+<br>
 
 ## ReDU Sample Information Contribution
 * <br>
