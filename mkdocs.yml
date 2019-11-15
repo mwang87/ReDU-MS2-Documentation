@@ -1,5 +1,5 @@
 site_name: ReDU Documentation
-pages:
+nav:
     - ReDU Introduction: index.md
     - How to Contribute: HowtoContribute.md
     - Analyze Your Data:
