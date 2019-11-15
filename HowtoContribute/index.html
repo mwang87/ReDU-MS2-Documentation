@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.9.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
     
     
       
@@ -40,21 +40,50 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.4f4f49e8.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
       
       
     
     
-      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
     
     
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
     <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-8412213-5", "ccms-ucsd.github.io")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
     
     
   </head>
@@ -92,22 +121,21 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                ReDU Documentation
-              </span>
-              <span class="md-header-nav__topic">
+            <span class="md-header-nav__topic">
+              ReDU Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
                 How to Contribute
-              </span>
-            
+              
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -130,7 +158,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -143,7 +170,7 @@
         
       
       
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -152,11 +179,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <span class="md-nav__button md-logo">
+    <a href=".." title="ReDU Documentation" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
-    </span>
+    </a>
     ReDU Documentation
   </label>
   
@@ -207,14 +234,14 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#required-items" title="Required Items" class="md-nav__link">
+  <a href="#required-items" class="md-nav__link">
     Required Items
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-by-step-instructions" title="Step-by-step Instructions" class="md-nav__link">
+  <a href="#step-by-step-instructions" class="md-nav__link">
     Step-by-step Instructions
   </a>
   
@@ -222,7 +249,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#step-1-data" title="Step 1 - Data" class="md-nav__link">
+  <a href="#step-1-data" class="md-nav__link">
     Step 1 - Data
   </a>
   
@@ -230,21 +257,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1a-convert-to-open-source-file-formats" title="1A - Convert to Open-Source File Formats" class="md-nav__link">
+  <a href="#1a-convert-to-open-source-file-formats" class="md-nav__link">
     1A - Convert to Open-Source File Formats
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#1b-upload-data-to-gnpsmassive-and-create-a-massive-id" title="1B - Upload Data to GNPS/MassIVE and Create a MassIVE ID" class="md-nav__link">
+  <a href="#1b-upload-data-to-gnpsmassive-and-create-a-massive-id" class="md-nav__link">
     1B - Upload Data to GNPS/MassIVE and Create a MassIVE ID
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#1c-prepare-the-massive-id" title="1C - Prepare the MassIVE ID" class="md-nav__link">
+  <a href="#1c-prepare-the-massive-id" class="md-nav__link">
     1C - Prepare the MassIVE ID
   </a>
   
@@ -256,7 +283,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-2-sample-information" title="Step 2 - Sample Information" class="md-nav__link">
+  <a href="#step-2-sample-information" class="md-nav__link">
     Step 2 - Sample Information
   </a>
   
@@ -264,21 +291,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#2a-make-a-copy-of-the-sample-information-template" title="2A - Make a copy of the Sample Information Template" class="md-nav__link">
+  <a href="#2a-make-a-copy-of-the-sample-information-template" class="md-nav__link">
     2A - Make a copy of the Sample Information Template
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2b-fill-the-sample-information-template" title="2B - Fill the Sample Information Template" class="md-nav__link">
+  <a href="#2b-fill-the-sample-information-template" class="md-nav__link">
     2B - Fill the Sample Information Template
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2c-download-the-sample-information-template" title="2C - Download the Sample Information Template" class="md-nav__link">
+  <a href="#2c-download-the-sample-information-template" class="md-nav__link">
     2C - Download the Sample Information Template
   </a>
   
@@ -290,7 +317,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-3-validation" title="Step 3 - Validation" class="md-nav__link">
+  <a href="#step-3-validation" class="md-nav__link">
     Step 3 - Validation
   </a>
   
@@ -298,14 +325,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#3a-validate-your-sample-information-file" title="3A - Validate your Sample Information File" class="md-nav__link">
+  <a href="#3a-validate-your-sample-information-file" class="md-nav__link">
     3A - Validate your Sample Information File
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3b-rename-the-sample-information-file" title="3B - Rename the Sample Information File" class="md-nav__link">
+  <a href="#3b-rename-the-sample-information-file" class="md-nav__link">
     3B - Rename the Sample Information File
   </a>
   
@@ -317,7 +344,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-4-upload-the-validated-sample-information-file-named-gnps_metadatatsv" title="Step 4 - Upload the validated Sample Information file named "gnps_metadata.tsv"" class="md-nav__link">
+  <a href="#step-4-upload-the-validated-sample-information-file-named-gnps_metadatatsv" class="md-nav__link">
     Step 4 - Upload the validated Sample Information file named "gnps_metadata.tsv"
   </a>
   
@@ -329,7 +356,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#that-is-it-double-check-that-your-data-make-it-into-the-redu-file-selector" title="That is it! Double check that your data make it into the ReDU file selector." class="md-nav__link">
+  <a href="#that-is-it-double-check-that-your-data-make-it-into-the-redu-file-selector" class="md-nav__link">
     That is it! Double check that your data make it into the ReDU file selector.
   </a>
   
@@ -337,7 +364,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#notes" title="Notes" class="md-nav__link">
+  <a href="#notes" class="md-nav__link">
     Notes
   </a>
   
@@ -512,14 +539,14 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#required-items" title="Required Items" class="md-nav__link">
+  <a href="#required-items" class="md-nav__link">
     Required Items
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-by-step-instructions" title="Step-by-step Instructions" class="md-nav__link">
+  <a href="#step-by-step-instructions" class="md-nav__link">
     Step-by-step Instructions
   </a>
   
@@ -527,7 +554,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#step-1-data" title="Step 1 - Data" class="md-nav__link">
+  <a href="#step-1-data" class="md-nav__link">
     Step 1 - Data
   </a>
   
@@ -535,21 +562,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1a-convert-to-open-source-file-formats" title="1A - Convert to Open-Source File Formats" class="md-nav__link">
+  <a href="#1a-convert-to-open-source-file-formats" class="md-nav__link">
     1A - Convert to Open-Source File Formats
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#1b-upload-data-to-gnpsmassive-and-create-a-massive-id" title="1B - Upload Data to GNPS/MassIVE and Create a MassIVE ID" class="md-nav__link">
+  <a href="#1b-upload-data-to-gnpsmassive-and-create-a-massive-id" class="md-nav__link">
     1B - Upload Data to GNPS/MassIVE and Create a MassIVE ID
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#1c-prepare-the-massive-id" title="1C - Prepare the MassIVE ID" class="md-nav__link">
+  <a href="#1c-prepare-the-massive-id" class="md-nav__link">
     1C - Prepare the MassIVE ID
   </a>
   
@@ -561,7 +588,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-2-sample-information" title="Step 2 - Sample Information" class="md-nav__link">
+  <a href="#step-2-sample-information" class="md-nav__link">
     Step 2 - Sample Information
   </a>
   
@@ -569,21 +596,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#2a-make-a-copy-of-the-sample-information-template" title="2A - Make a copy of the Sample Information Template" class="md-nav__link">
+  <a href="#2a-make-a-copy-of-the-sample-information-template" class="md-nav__link">
     2A - Make a copy of the Sample Information Template
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2b-fill-the-sample-information-template" title="2B - Fill the Sample Information Template" class="md-nav__link">
+  <a href="#2b-fill-the-sample-information-template" class="md-nav__link">
     2B - Fill the Sample Information Template
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2c-download-the-sample-information-template" title="2C - Download the Sample Information Template" class="md-nav__link">
+  <a href="#2c-download-the-sample-information-template" class="md-nav__link">
     2C - Download the Sample Information Template
   </a>
   
@@ -595,7 +622,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-3-validation" title="Step 3 - Validation" class="md-nav__link">
+  <a href="#step-3-validation" class="md-nav__link">
     Step 3 - Validation
   </a>
   
@@ -603,14 +630,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#3a-validate-your-sample-information-file" title="3A - Validate your Sample Information File" class="md-nav__link">
+  <a href="#3a-validate-your-sample-information-file" class="md-nav__link">
     3A - Validate your Sample Information File
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3b-rename-the-sample-information-file" title="3B - Rename the Sample Information File" class="md-nav__link">
+  <a href="#3b-rename-the-sample-information-file" class="md-nav__link">
     3B - Rename the Sample Information File
   </a>
   
@@ -622,7 +649,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-4-upload-the-validated-sample-information-file-named-gnps_metadatatsv" title="Step 4 - Upload the validated Sample Information file named "gnps_metadata.tsv"" class="md-nav__link">
+  <a href="#step-4-upload-the-validated-sample-information-file-named-gnps_metadatatsv" class="md-nav__link">
     Step 4 - Upload the validated Sample Information file named "gnps_metadata.tsv"
   </a>
   
@@ -634,7 +661,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#that-is-it-double-check-that-your-data-make-it-into-the-redu-file-selector" title="That is it! Double check that your data make it into the ReDU file selector." class="md-nav__link">
+  <a href="#that-is-it-double-check-that-your-data-make-it-into-the-redu-file-selector" class="md-nav__link">
     That is it! Double check that your data make it into the ReDU file selector.
   </a>
   
@@ -642,7 +669,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#notes" title="Notes" class="md-nav__link">
+  <a href="#notes" class="md-nav__link">
     Notes
   </a>
   
@@ -810,22 +837,15 @@
           Material for MkDocs</a>
       </div>
       
-        
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../assets/javascripts/application.a59e2a89.js"></script>
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
       
-      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
-      
-    
-    
-      
-        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-8412213-5","ccms-ucsd.github.io"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
     
   </body>
