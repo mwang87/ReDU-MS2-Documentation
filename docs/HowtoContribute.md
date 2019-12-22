@@ -16,7 +16,7 @@
 #### 1.1 Convert mass spectrometry data to open-source file formats
 - [ ] Convert data
 
-Notes:
+> Notes:
 > * Instructions on file conversion software - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md) <br>
 > * Information on accepted open-source files formats - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md)  <br>
    
@@ -26,7 +26,7 @@ Notes:
 - [ ] After complete, make the MassIVE ID public by clicking the **"make public"** button.
 - [ ] Please click the **"convert spectra"** button to expedite inclusion in ReDU.
 
-Notes:
+> Notes:
 > * A free GNPS/MassIVE account is necessary <br>
 > * We encourage the upload of vendor-specific raw data, *e.g.* .raw (Thermo) and .d (Bruker and Agilent), in addition to open-source file formats (.mzXML, .mzML, or .mgf). <br>
 > * Suggested FTP clients - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/fileupload/) <br>
@@ -37,17 +37,17 @@ Notes:
 - [ ] Navigate to the ReDU Sample Information Template - [link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing)
 - [ ] Save a copy of the sample information template by going to **"File - Make a copy"** into a personal google drive
 
-<img src="images/Sample_Template_MakeACopy.gif" width="500">
+  <img src="images/Sample_Template_MakeACopy.gif" width="500">
 
 - [ ] Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
     - The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML).
     - When copying and pasting from another spreadsheet, please **copy + special paste** so as to not chance the cell formulae or formatting.
 
-<img src="images/Sample_Template_Fill.gif" width="500">
+  <img src="images/Sample_Template_Fill.gif" width="500">
 
 - [ ] ReDU uses a controlled vocublary - the accepted terms are listed in the "ReDUMS2_controlled_vocabulary" tab per column. **If you require terms that are not avaliable, please raise an issue on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS).**
 
-Notes:
+> Notes:
 > * One template is required per MassIVE ID <br>
 > * It is highly recommended to fill the template in Google Sheets <br>
 > * Any conflict between identically named files will result in their exclusion <br>
@@ -56,7 +56,7 @@ Notes:
 - [ ] When complete, **delete all extra rows** of the template
 - [ ] Download from Google Sheets as a tab separated text file using **"File-Download as" and selecting "Tab-seperated values..."**
 
-<img src="images/Sample_Template_deleterows.gif" width="500">
+  <img src="images/Sample_Template_deleterows.gif" width="500">
 
 - [ ] Navigate to the ReDU Sample Information Validator - [link here](https://redu.ucsd.edu/ReDUValidator)
 - [ ] Drag-and-drop or select your sample information file into the validator.
@@ -64,12 +64,12 @@ Notes:
   - Non-adherant information is displayed in the "Sample Information Validation Errors" panel - the row, column, and the accepted terms are listed.
   - If errors occur, then please correct the non-adherant information in the template and repeat from 2C
 
-<img src="images/Validate.gif" width="500">
+  <img src="images/Validate.gif" width="500">
 
 - [ ] Upon passing the validator, **rename the file** to be exactly **"gnps_metadata.tsv"**
   - The filename must be **gnps_metadata.tsv** - this step is critical
 
-Notes:
+> Notes:
 > * If corrections or updates are necessary, please make them accordingly and upload the new validated sample information file named **"gnps_metadata.tsv"**. ReDU will automatically import the most recent version of the "gnps_metadata.tsv" file (files cannot be deleted by users from MassIVE). <br>
 > * It is suggested to make a seperate directory on your computer to store each MassIVE IDs sample information template. <br>
 
@@ -88,4 +88,3 @@ GNPS/MassIVE is searched multiple times per day to find new or updated sample in
 ## Help and Advice
 General Questions or Advice = GNPS Forum - [link here](https://groups.google.com/forum/#!forum/molecular_networking_bug_reports)
 New Terms, Corrections, Suggestions = GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS).
-
