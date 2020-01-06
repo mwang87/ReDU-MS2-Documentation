@@ -55,5 +55,6 @@ A **GNPS library search** has been performed for all files with sample informati
 
 ## Notes:
  * You must have an account at [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and be signed in prior to launching a job.
+ * If you are not logged in, it will prompt you to login. Login, then close the tab and click the set up button again on the ReDU tab. 
  * All files must be added to **Group 1 (G1)**; there is no support for multiple groups for library search.
  * The suggested limit for GNPS library search is a total of **5000 files**.
