@@ -5,6 +5,70 @@
 
 **This is a community effort and everyone is encouraged to participate by submitting their own data and sample information [instructions](HowtoContribute.md). The sharing of new applications (and code) which use ReDU is highly encouraged.**
 
+```mermaid
+	graph LR
+		subgraph 
+		A1["File Selection Interface"]
+		A2["Set Up Co-Analysis with GNPS Molecular Networking"]
+		A3["Set Up Co-Analysis with GNPS Library Search"]
+		A4["Launch Group Comparator"]
+		A5["Launch Chemical Explorer"]
+		A6["Launch PCA of Selected Files"]
+		
+		A1 --> A2
+		A1 --> A3
+		A1 --> A4
+		A1 --> A5
+		A1 --> A6
+		end
+		
+		subgraph 
+		B1["Chemical Explorer"]
+		B2["View Files"]
+		B3["View Associations"]
+		
+		B1 --> B2
+		B1 --> B3
+		A5 --> B1
+		click B1 "https://redu.ucsd.edu/compoundslist" "Link Out Chemical Explorer"
+		end
+
+		subgraph 
+		C1["Analyze Public Data"]
+		C2["Explore Multivariate Analysis of Public Data"]
+		C3["Chemical Explorer"]
+		C4["Re-analyze Public Data at GNPS"]
+		
+		C1 --> C2
+		C1 --> C3
+		C1 --> C4
+		
+		C4 --> A1
+		C1 --> B1
+		end
+		
+		subgraph 
+		D1["Analyze Your Data"]
+		D2["Compare Your Data to Public Data via Multivariate Analysis"]
+		D3["Co-analyze Your Data with Public Data at GNPS"]
+
+		D1 --> D2
+		D1 --> D3
+
+		D3 --> A1
+		end
+		subgraph 
+		E1["GNPS"]
+		E2["GNPS Molecular Networking Interface"]
+		E3["GNPS Library Search Interface"]
+		
+		E1 --> E2
+		E1 --> E3
+
+		A2 --> E1
+		A3 --> E1
+		end
+```
 ## We are developing two main branches of functionality:
 
 ## Analyze Your Data
