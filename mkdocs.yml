@@ -4,11 +4,15 @@ nav:
     - How to Contribute: HowtoContribute.md
     - Analyze Your Data:
         - Multivariate - Project Your Data: AnalyzeYourData_MultivariateComparisons.md
-        - Co-Analysis at GNPS: AnalyzeYourData_CoAnalysis_at_GNPS.md
+        - Co-Analysis at GNPS: 
+            - Co-Analysis at GNPS: AnalyzeYourData_CoAnalysis_at_GNPS.md
+            - Selected File PCA: SelectedPCA.md
     - Analyze Public Data:
         - Multivariate - Explore Public Data: AnalyzePublicData_MultivariateComparisons.md
         - Chemical Explorer and Sample Information Association: AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md
-        - Re-analysis at GNPS: PublicData_Reanalysis_at_GNPS.md
+        - Re-analysis at GNPS: 
+            - Re-analysis at GNPS: PublicData_Reanalysis_at_GNPS.md
+            - Selected File PCA: SelectedPCA.md
     - Contact: contact.md
     - FAQ: FAQ.md
 theme:
