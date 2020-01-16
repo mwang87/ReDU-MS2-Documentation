@@ -16,7 +16,6 @@ nav:
             - Library Search at GNPS: AnalyzePublicData_GNPS_LibrarySearch.md
             - Chemical Explorer Analysis: AnalyzePublicData_ChemicalExplorer.md
             - Group Comparator: AnalyzePublicData_GroupComparator.md
-            - Selected File PCA: SelectedPCA.md
     - Contact: contact.md
     - FAQ: FAQ.md
 theme:
