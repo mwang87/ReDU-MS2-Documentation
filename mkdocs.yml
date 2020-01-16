@@ -5,13 +5,17 @@ nav:
     - Analyze Your Data:
         - Multivariate - Project Your Data: AnalyzeYourData_MultivariateComparisons.md
         - Co-Analysis at GNPS: 
-            - Co-Analysis at GNPS: AnalyzeYourData_CoAnalysis_at_GNPS.md
+            - Molecular Networking at GNPS: AnalyzeYourData_GNPS_MolecularNetworking.md
+            - Library Search at GNPS: AnalyzeYourData_GNPS_LibrarySearch.md
             - Selected File PCA: SelectedPCA.md
     - Analyze Public Data:
         - Multivariate - Explore Public Data: AnalyzePublicData_MultivariateComparisons.md
-        - Chemical Explorer and Sample Information Association: AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md
+        - Chemical Explorer: AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md
         - Re-analysis at GNPS: 
-            - Re-analysis at GNPS: PublicData_Reanalysis_at_GNPS.md
+            - Molecular Networking at GNPS: AnalyzePublicData_GNPS_MolecularNetworking.md
+            - Library Search at GNPS: AnalyzePublicData_GNPS_LibrarySearch.md
+            - Chemical Explorer Analysis: AnalyzePublicData_ChemicalExplorer.md
+            - Group Comparator: AnalyzePublicData_GroupComparator.md
             - Selected File PCA: SelectedPCA.md
     - Contact: contact.md
     - FAQ: FAQ.md
