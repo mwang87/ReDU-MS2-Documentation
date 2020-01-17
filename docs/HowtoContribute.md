@@ -44,8 +44,11 @@
 ![Make a copy of the template](images/Sample_Template_MakeACopy.gif)
 
 - Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
-    - The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML).
-    - When copying and pasting from another spreadsheet, please **copy + special paste** so as to not chance the cell formulae or formatting.
+
+ > Notes: 
+   > - Columns and values are defined on the readme tab in the template.
+   > - The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML).
+   > - When copying and pasting from another spreadsheet, please **copy + special paste** so as to not chance the cell formulae or formatting.
 
 ![Fill in information](images/Sample_Template_Fill.gif)
 
