@@ -20,20 +20,20 @@
 #### 1.1 Convert mass spectrometry data to open-source file formats
 - Convert data
 
-  > Notes:
-    > - Instructions on file conversion software - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md) <br>
-    > - Information on accepted open-source files formats - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md)  <br>
-   
+ > Notes:
+   > - Instructions on file conversion software - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md) <br>
+   > - Information on accepted open-source files formats - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md)  <br>
+  
 #### 1.2 Upload mass spectrometry data to GNPS/MassIVE and create a MassIVE ID <br>
 - Launch the "Submit your data" workflow to submit your data to MassIVE - [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp?redirect=auth)) - to create a MassIVE ID. **The title must beginning with "GNPS - "** Detailed instructions - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/datasets/)
 - You will receive an email when the workflow has completed.
 - After complete, make the MassIVE ID public by clicking the **"make public"** button.
 - Please click the **"convert spectra"** button to expedite inclusion in ReDU.
 
-  > Notes:
-    > - A free GNPS/MassIVE account is necessary <br>
-    > - We encourage the upload of vendor-specific raw data, *e.g.* .raw (Thermo) and .d (Bruker and Agilent), in addition to open-source file formats (.mzXML, .mzML, or .mgf). <br>
-    > - Suggested FTP clients - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/fileupload/) <br>
+ > Notes:
+   > - A free GNPS/MassIVE account is necessary <br>
+   > - We encourage the upload of vendor-specific raw data, *e.g.* .raw (Thermo) and .d (Bruker and Agilent), in addition to open-source file formats (.mzXML, .mzML, or .mgf). <br>
+   > - Suggested FTP clients - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/fileupload/) <br>
 
 ### 2. **ReDU-compliant sample information** <br>
 
@@ -51,10 +51,10 @@
 
 - ReDU uses a controlled vocublary - the accepted terms are listed in the "ReDUMS2_controlled_vocabulary" tab per column. **If you require terms that are not avaliable, please raise an issue on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS).**
 
-  > Notes: 
-    > - One template is required per MassIVE ID <br>
-    > - It is highly recommended to fill the template in Google Sheets <br>
-    > - Any conflict between identically named files will result in their exclusion <br>
+ > Notes: 
+   > - One template is required per MassIVE ID <br>
+   > - It is highly recommended to fill the template in Google Sheets <br>
+   > - Any conflict between identically named files will result in their exclusion <br>
   
 #### 2.2 Validation of the ReDU sample information template using the drag-and-drop validator
 - When complete, **delete all extra rows** of the template
@@ -73,9 +73,9 @@
 - Upon passing the validator, **rename the file** to be exactly **"gnps_metadata.tsv"**
     - The filename must be **gnps_metadata.tsv** - this step is critical
 
-  > Notes:
-    > - If corrections or updates are necessary, please make them accordingly and upload the new validated sample information file named **"gnps_metadata.tsv"**. ReDU will automatically import the most recent version of the "gnps_metadata.tsv" file (files cannot be deleted by users from MassIVE). <br>
-    > - It is suggested to make a seperate directory on your computer to store each MassIVE IDs sample information template. <br>
+ > Notes:
+   > - If corrections or updates are necessary, please make them accordingly and upload the new validated sample information file named **"gnps_metadata.tsv"**. ReDU will automatically import the most recent version of the "gnps_metadata.tsv" file (files cannot be deleted by users from MassIVE). <br>
+   > - It is suggested to make a seperate directory on your computer to store each MassIVE IDs sample information template. <br>
 
 #### 2.3 Upload ReDU-compliant sample information (after validation) to the corresponding MassIVE accession
 - Navigate to the MassIVE ID created and click on the **"add files"** button.
@@ -88,8 +88,8 @@
 - Selecting the "DatasetAccession" button which will load all MassIVE accessions avaliable in ReDU
 - Check for your MassIVE accession (*i.e.* MassIVE ID) and confirm the number of files is correct
 
-  > Notes: 
-    > - GNPS/MassIVE is searched multiple times per day to find new or updated sample information files so it may take some time for your data to appear.<br>
+ > Notes: 
+   > - GNPS/MassIVE is searched multiple times per day to find new or updated sample information files so it may take some time for your data to appear.<br>
 
 ## Thank you for contributing to ReDU!
 
