@@ -13,26 +13,26 @@
 ---
 
 ### Tutorial
-1. Navigate to the [ReDU](https://redu.ucsd.edu/) homepage.
-2. Click on the **"Re-analyze Public Data at GNPS"** text.
-3. Select the files you wish to include in the re-analysis by clicking the G1 button.
-  - The orange buttons in the center of the screen correspond to Sample Information categories.
-  - If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
-  - When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
-4. Click on the **Launch Chemical Explorer** button (blue) at the bottom of the page.
- 
-![File Selector](images/File_Selector.gif)
-
-5. The resulting table displays the chemicals annotated.
-  - Download buttons are in the upper-left corner
-  - Search box in the upper-right corner
-  - The files in which the annotations were found can be found by clicking the "View Files" button.
+ 1. Navigate to the [ReDU](https://redu.ucsd.edu/) homepage.
+ 2. Click on the **"Re-analyze Public Data at GNPS"** text.
+ 3. Select the files you wish to include in the re-analysis by clicking the G1 button.
+   - The orange buttons in the center of the screen correspond to Sample Information categories.
+   - If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
+   - When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
+ 4. Click on the **Launch Chemical Explorer** button (blue) at the bottom of the page.
   
- [image here]
+ ![File Selector](images/File_Selector.gif)
  
-6. Sample Information Associations can be determined by clicking on the "View Associations" button.
-  - Download buttons are in the upper-left corner
-  - Bar plot is displayed
-  
+ 5. The resulting table displays the chemicals annotated.
+   - Download buttons are in the upper-left corner
+   - Search box in the upper-right corner
+   - The files in which the annotations were found can be found by clicking the "View Files" button.
+   
   [image here]
+  
+ 6. Sample Information Associations can be determined by clicking on the "View Associations" button.
+   - Download buttons are in the upper-left corner
+   - Bar plot is displayed
+   
+   [image here]
  
