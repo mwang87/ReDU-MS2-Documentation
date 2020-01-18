@@ -742,26 +742,30 @@
 <h3 id="1-mass-spectrometry-data-msms-data">1. <strong>Mass spectrometry data (MS/MS data)</strong>  <br></h3>
 <h4 id="11-convert-mass-spectrometry-data-to-open-source-file-formats">1.1 Convert mass spectrometry data to open-source file formats</h4>
 <ul>
-<li>Convert data</li>
-</ul>
+<li>
+<p>Convert data</p>
 <blockquote>
 <p>Notes: <br>
-* Instructions on file conversion software - <a href="https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md">link here</a>
-* Information on accepted open-source files formats - <a href="https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md">link here</a></p>
+  - Instructions on file conversion software - <a href="https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md">link here</a> <br>
+  - Information on accepted open-source files formats - <a href="https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md">link here</a> <br></p>
 </blockquote>
+</li>
+</ul>
 <h4 id="12-upload-mass-spectrometry-data-to-gnpsmassive-and-create-a-massive-id">1.2 Upload mass spectrometry data to GNPS/MassIVE and create a MassIVE ID <br></h4>
 <ul>
 <li>Launch the "Submit your data" workflow to submit your data to MassIVE - <a href="https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp?redirect=auth">link here</a>) - to create a MassIVE ID. <strong>The title must beginning with "GNPS - "</strong> Detailed instructions - <a href="https://ccms-ucsd.github.io/GNPSDocumentation/datasets/">link here</a></li>
 <li>You will receive an email when the workflow has completed.</li>
 <li>After complete, make the MassIVE ID public by clicking the <strong>"make public"</strong> button.</li>
-<li>Please click the <strong>"convert spectra"</strong> button to expedite inclusion in ReDU.</li>
-</ul>
+<li>
+<p>Please click the <strong>"convert spectra"</strong> button to expedite inclusion in ReDU.</p>
 <blockquote>
 <p>Notes: <br>
-* A free GNPS/MassIVE account is necessary 
-* We encourage the upload of vendor-specific raw data, <em>e.g.</em> .raw (Thermo) and .d (Bruker and Agilent), in addition to open-source file formats (.mzXML, .mzML, or .mgf).
-* Suggested FTP clients - <a href="https://ccms-ucsd.github.io/GNPSDocumentation/fileupload/">link here</a></p>
+  - A free GNPS/MassIVE account is necessary <br>
+  - We encourage the upload of vendor-specific raw data, <em>e.g.</em> .raw (Thermo) and .d (Bruker and Agilent), in addition to open-source file formats (.mzXML, .mzML, or .mgf). <br>
+  - Suggested FTP clients - <a href="https://ccms-ucsd.github.io/GNPSDocumentation/fileupload/">link here</a> <br></p>
 </blockquote>
+</li>
+</ul>
 <h3 id="2-redu-compliant-sample-information">2. <strong>ReDU-compliant sample information</strong> <br></h3>
 <h4 id="21-manual-completion-of-the-redu-sample-information-template">2.1 Manual completion of the ReDU sample information template</h4>
 <ul>
@@ -770,24 +774,28 @@
 </ul>
 <p><img alt="Make a copy of the template" src="../images/Sample_Template_MakeACopy.gif" /></p>
 <ul>
-<li>Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).</li>
-</ul>
-<blockquote>
-<p>Notes: <br> 
-* Columns and values are defined on the readme tab in the template.
-* The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML).
-* When copying and pasting from another spreadsheet, please <strong>copy + special paste</strong> so as to not chance the cell formulae or formatting.</p>
-</blockquote>
-<p><img alt="Fill in information" src="../images/Sample_Template_Fill.gif" /></p>
-<ul>
-<li>ReDU uses a controlled vocublary - the accepted terms are listed in the "ReDUMS2_controlled_vocabulary" tab per column. <strong>If you require terms that are not avaliable, please raise an issue on GitHub - <a href="https://github.com/mwang87/ReDU-MS2-GNPS">link here</a>.</strong></li>
-</ul>
+<li>
+<p>Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).</p>
 <blockquote>
 <p>Notes: <br>
-* One template is required per MassIVE ID
-* It is highly recommended to fill the template in Google Sheets
-* Any conflict between identically named files will result in their exclusion</p>
+  - Columns and values are defined on the readme tab in the template. <br>
+  - The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML). <br>
+  - When copying and pasting from another spreadsheet, please <strong>copy + special paste</strong> so as to not chance the cell formulae or formatting. <br></p>
 </blockquote>
+</li>
+</ul>
+<p><img alt="Fill in information" src="../images/Sample_Template_Fill.gif" /></p>
+<ul>
+<li>
+<p>ReDU uses a controlled vocublary - the accepted terms are listed in the "ReDUMS2_controlled_vocabulary" tab per column. <strong>If you require terms that are not avaliable, please raise an issue on GitHub - <a href="https://github.com/mwang87/ReDU-MS2-GNPS">link here</a>.</strong></p>
+<blockquote>
+<p>Notes: <br>
+  - One template is required per MassIVE ID. <br>
+  - It is highly recommended to fill the template in Google Sheets. <br>
+  - Any conflict between identically named files will result in their exclusion. <br></p>
+</blockquote>
+</li>
+</ul>
 <h4 id="22-validation-of-the-redu-sample-information-template-using-the-drag-and-drop-validator">2.2 Validation of the ReDU sample information template using the drag-and-drop validator</h4>
 <ul>
 <li>When complete, <strong>delete all extra rows</strong> of the template</li>
@@ -805,16 +813,18 @@
 </ul>
 <p><img alt="Validate the Template" src="../images/Validate.gif" /></p>
 <ul>
-<li>Upon passing the validator, <strong>rename the file</strong> to be exactly <strong>"gnps_metadata.tsv"</strong><ul>
+<li>
+<p>Upon passing the validator, <strong>rename the file</strong> to be exactly <strong>"gnps_metadata.tsv"</strong></p>
+<ul>
 <li>The filename must be <strong>gnps_metadata.tsv</strong> - this step is critical</li>
-</ul>
-</li>
 </ul>
 <blockquote>
 <p>Notes: <br>
-* If corrections or updates are necessary, please make them accordingly and upload the new validated sample information file named <strong>"gnps_metadata.tsv"</strong>. ReDU will automatically import the most recent version of the "gnps_metadata.tsv" file (files cannot be deleted by users from MassIVE).
-* It is suggested to make a seperate directory on your computer to store each MassIVE IDs sample information template.</p>
+  - If corrections or updates are necessary, please make them accordingly and upload the new validated sample information file named <strong>"gnps_metadata.tsv"</strong>. ReDU will automatically import the most recent version of the "gnps_metadata.tsv" file (files cannot be deleted by users from MassIVE). <br>
+  - It is suggested to make a seperate directory on your computer to store each MassIVE IDs sample information template. <br></p>
 </blockquote>
+</li>
+</ul>
 <h4 id="23-upload-redu-compliant-sample-information-after-validation-to-the-corresponding-massive-accession">2.3 Upload ReDU-compliant sample information (after validation) to the corresponding MassIVE accession</h4>
 <ul>
 <li>Navigate to the MassIVE ID created and click on the <strong>"add files"</strong> button.</li>
@@ -826,12 +836,14 @@
 <ul>
 <li>Double check that your data make it into ReDU - <a href="https://redu.ucsd.edu/metadataselection">link here</a></li>
 <li>Selecting the "DatasetAccession" button which will load all MassIVE accessions avaliable in ReDU</li>
-<li>Check for your MassIVE accession (<em>i.e.</em> MassIVE ID) and confirm the number of files is correct</li>
-</ul>
+<li>
+<p>Check for your MassIVE accession (<em>i.e.</em> MassIVE ID) and confirm the number of files is correct</p>
 <blockquote>
-<p>Notes: <br> 
-* GNPS/MassIVE is searched multiple times per day to find new or updated sample information files so it may take some time for your data to appear.</p>
+<p>Notes: <br>
+  - GNPS/MassIVE is searched multiple times per day to find new or updated sample information files so it may take some time for your data to appear. <br></p>
 </blockquote>
+</li>
+</ul>
 <h2 id="thank-you-for-contributing-to-redu">Thank you for contributing to ReDU!</h2>
 <h2 id="help-and-advice">Help and Advice</h2>
 <ul>
