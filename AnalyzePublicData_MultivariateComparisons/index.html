@@ -293,7 +293,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SelectedPCA/" title="Selected File PCA" class="md-nav__link">
+    <a href="../AnalyzeYourData_SelectedPCA/" title="Selected File PCA" class="md-nav__link">
       Selected File PCA
     </a>
   </li>
@@ -462,8 +462,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../AnalyzePublicData_ChemicalExplorer/" title="Chemical Explorer Analysis" class="md-nav__link">
-      Chemical Explorer Analysis
+    <a href="../AnalyzePublicData_ChemicalExplorer/" title="Chemical Explorer" class="md-nav__link">
+      Chemical Explorer
     </a>
   </li>
 
@@ -476,6 +476,18 @@
   <li class="md-nav__item">
     <a href="../AnalyzePublicData_GroupComparator/" title="Group Comparator" class="md-nav__link">
       Group Comparator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../AnalyzePublicData_SelectedPCA/" title="Selected File PCA" class="md-nav__link">
+      Selected File PCA
     </a>
   </li>
 
@@ -580,19 +592,22 @@
                 
                 
                 <h1 id="analyze-public-data-explore-multivariate-analysis-of-public-data">Analyze Public Data: Explore Multivariate Analysis of Public Data</h1>
+<hr />
 <h3 id="example-use-cases">Example Use Cases</h3>
 <ul>
 <li><strong>Explore public data</strong> by comparing the chemicals annotated in samples, analyzed by principal components analysis (PCA), <em>viz.</em> human breast milk appears to be most similar to food given their proximity in the PCA score plot.</li>
-<li><strong>Begin to explore high-level questions</strong> that remain unanswered when attempting to compare public mass spectrometry data. For example, does urine always look, chemically, like urine year after year, across instruments, across extraction methods, etc?</li>
+<li><strong>Begin to explore high-level questions</strong> that remain unanswered when attempting to compare public mass spectrometry data. For example, does urine always look, chemically, like urine year after year, across instruments, across extraction methods, etc?<hr />
+</li>
 </ul>
 <h3 id="summary">Summary</h3>
 <p>The common denominator of all mass spectrometry data is the chemicals detected. In spite of the numerous confounders (<em>e.g.</em> instrument type, user, year, and extraction method), the chemicals that are detected and annotated from samples is the ground truth of any experiment. The <strong>MS2 data, specifically product ion scans, are extracted from the public data and analyzed <em>de novo</em> in GNPS</strong>, and in doing so provide the chemical annotations based on library spectral matching for each file. <strong>Principal components analysis (PCA)</strong> was used to analyze the results in an unsupervised manner. The results are plotted using Emperor which provides interactive plotting capabilities to explore the data via a PCA score plot. Using Emperor, the user has the ability to change the plot axes, color points by sample information, and filter which data point are plotted based on sample information.</p>
+<hr />
 <h3 id="tutorial">Tutorial</h3>
 <ol>
 <li>Navigate to the <a href="https://redu.ucsd.edu/">ReDU-MS2</a> homepage.</li>
 <li>
 <p>Click on the <strong>"Explore Multivariate Analysis of Public Data"</strong> text under the <strong>"Analyze Public Data"</strong> section.</p>
-<p><img alt="Redu_Homepage_Link_Location" src="../images/redu_homepage.jpg" /></p>
+<p><img alt="Redu_Homepage_Link_Location" src="../images/public_comparemultivariate_redu_homepage.png" /></p>
 </li>
 <li>
 <p>Each file is plotted as a point in the PCA score plot. Users can change the PC axes displayed using the drop down.</p>
@@ -605,12 +620,13 @@
 <li>
 <p>Users can filter which samples are plotted in the PCA score plot based on a sample information cateogry using the drop down menu.</p>
 <p><img alt="Sample Filtration" src="../images/filter_samples.gif" /></p>
-</li>
-</ol>
+<hr />
 <h2 id="notes">Notes:</h2>
 <ul>
 <li>The data are updated periodically and will not display your own data immediately - please use the "Multivariate Comparisons" option under the "Analyze Your Data" if you wish to compare your data to the public data.</li>
 </ul>
+</li>
+</ol>
                 
                   
                 
@@ -632,7 +648,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../SelectedPCA/" title="Selected File PCA" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../AnalyzeYourData_SelectedPCA/" title="Selected File PCA" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
