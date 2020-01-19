@@ -1,8 +1,6 @@
-#Analyze Public Data: Re-analyze Your Data with Public Data at GNPS
+# Analyze Public Data: Re-analyze Your Data with Public Data at GNPS
 
-<font color="blue">
 ## Chemical Explorer (on a subset of public data)
-</font>
 
 ---
 

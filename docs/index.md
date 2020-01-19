@@ -20,19 +20,20 @@ clicking on the image below launches an interactive version - or edited via this
 
 ### Analyze Your Data
 - [Compare Your Data to Public Data via Multivariate Analysis](AnalyzeYourData_MultivariateComparisons.md) - Projection of your data onto a precalculated principal components analysis score plot of public data. <br>
-- [Co-analyze Your Data with Public Data at GNPS](AnalyzeYourData_CoAnalysis_at_GNPS.md) - Select files using sample information and assemble public data in groups as desired using the file selector. Launching an analysis loads the files from [MassIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) at which point users can add their own data. The following co-analyses can be launched:
-  - Molecular Networking at GNPS
-  - Library Search at GNPS
-  - PCA of Selected Files
+- **Co-analyze Your Data with Public Data at GNPS** - Select files using sample information and assemble public data in groups as desired using the file selector. Launching an analysis loads the files from [MassIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) at which point users can add their own data. The following co-analyses can be launched:
+  - Molecular Networking at GNPS - [link](AnalyzeYourData_GNPS_MolecularNetworking.md)
+  - Library Search at GNPS - [link](AnalyzeYourData_GNPS_LibrarySearch.md)
+  - PCA of Selected Files - [link](AnalyzeYourData_SelectedPCA.md)
   
 ### Analyze Public Data
 - [Explore Multivariate Analysis of Public Data](AnalyzePublicData_MultivariateComparisons.md) - Explore precalculated principal components analysis score plot of public data. <br>
 - [Chemical Explorer](AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md) - Explore precalculated annotations using public data and default GNPS parameters <br>
-- [Re-analyze Public Data at GNPS](PublicData_Reanalysis_at_GNPS.md) - Select files using sample information and assemble public data in groups as desired using the file selector. The following co-analyses can be launched:
-  - Molecular Networking at GNPS
-  - Library Search at GNPS
-  - Chemical Explorer
-  - Group Comparator
+- **Re-analyze Public Data at GNPS** - Select files using sample information and assemble public data in groups as desired using the file selector. The following co-analyses can be launched:
+  - Molecular Networking at GNPS - [link](AnalyzePublicData_GNPS_MolecularNetworking.md)  
+  - Library Search at GNPS - [link](AnalyzePublicData_GNPS_LibrarySearch.md)
+  - Chemical Explorer - [link](AnalyzePublicData_ChemicalExplorer.md)
+  - Group Comparator - [link](AnalyzePublicData_GroupComparator.md)
+  - PCA of Selected Files - [link](AnalyzePublicData_SelectedPCA.md)
  
 ---
 

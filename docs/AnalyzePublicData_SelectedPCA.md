@@ -1,11 +1,9 @@
-#Analyze Your Data: Re-analyze Your Data with Public Data at GNPS
+# Analyze Your Data: Re-analyze Your Data with Public Data at GNPS
 
-<font color="blue">
-##Multivariate Analysis of Selected Files
-</font>
+## Multivariate Analysis of Selected Files
 ___
 
-###Summary
+### Summary
 The **Launch PCA of Selected Files** function allows the user to perform mulivariate analysis on a subset of files. First, the user selects samples based on sampel information category (*i.e.* MassSpectrometer) through the file filtration interface. A single button click on "Launch PCA of Selected Files" loads all the files and calcualte the principal coordinate analysis values per sample, which then displays via a 3D Emperor visualization.
 
 ___
@@ -23,5 +21,5 @@ ___
 
 __
 
-###Notes:
+### Notes:
   * The addtion of files to groups (G1-G6) will not affect the analysis in any way, and will not be included in the visualization.
