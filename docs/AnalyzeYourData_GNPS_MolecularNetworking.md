@@ -1,8 +1,7 @@
 # Analyze Your Data: Co-analyze Your Data with Public Data at GNPS
 
-<font color = "blue">
 ## Molecular Networking at GNPS
-</font>
+
 ___
 
 ### Example Use Cases
