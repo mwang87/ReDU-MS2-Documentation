@@ -43,3 +43,19 @@ All sample information can be downloaded from the ReDU-MS2 homepage by clicking 
 
 ## Code Availability
 Code for ReDU can be found on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS)
+
+---
+
+## Citation
+<br>
+Read our recent submitted preprint: [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
+
+---
+
+## Issues and Suggestions
+Please submit any issues or suggestions via [GitHub](https://github.com/mwang87/ReDU-MS2-GNPS). The use of the [GNPS forum](https://groups.google.com/forum/#!forum/molecular_networking_bug_reports) is encouraged.
+
+---
+
+## Page Contributions
+Alan K. Jarmusch (UCSD), Mingxun Wang (UCSD), Christine M. Aceves (UCSD)
