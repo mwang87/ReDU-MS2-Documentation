@@ -1,8 +1,6 @@
-#Analyze Your Data: Co-analyze Your Data with Public Data at GNPS
+# Analyze Your Data: Co-analyze Your Data with Public Data at GNPS
 
-<font color="blue">
-##Library Search at GNPS
-</font>
+## Library Search at GNPS
 
 ___
 
