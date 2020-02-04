@@ -1,4 +1,6 @@
-# Chemical Explorer (on a subset of public data)
+# Analyze Public Data: Re-analyze Your Data with Public Data at GNPS
+
+## Chemical Explorer (on a subset of public data)
 
 ---
 
@@ -28,5 +30,4 @@
   - Download buttons are in the upper-left corner
   - Bar plot is displayed
 
- UPDATE THIS GIF
- ![File Selector](images/File_Selector.gif)
+ ![File Selector](images/public_reanalysis_chemicalexplorer.gif)

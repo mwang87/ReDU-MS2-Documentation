@@ -1,10 +1,17 @@
+# Analyze Public Data: Re-analyze Your Data with Public Data at GNPS
+
 ## Library Search at GNPS
+___
 
 ### Example Use Cases
 * **Annotate chemicals** in the public data via spectral library matching using custom parameters. Used for generating a list of annotations based on custom parameters for the files included. All files must be in G1.
 
+___
+
 ### Summary
 A **GNPS library search** has been performed for all files with sample information in GNPS using default parameters ([found here](https://redu.ucsd.edu/compoundslist)). This option allows users to reanalyze the public data via custom library search parameters. The **library search results** are displayed on GNPS which includes the option of downloading a table with every chemical annotation versus the files it was detected in (cells of the matrix reflect detected, 1, or not detected, 0). Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
+
+___
 
 ### Tutorial
  1. Log into a [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) account.
@@ -18,6 +25,8 @@ A **GNPS library search** has been performed for all files with sample informati
  6. Launch the library search job with default parameters or customize parameters. Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 
 ![File Selector](images/File_Selector.gif)
+
+___
 
 ### Notes
  * You must have an account at [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and be signed in prior to launching a job.
