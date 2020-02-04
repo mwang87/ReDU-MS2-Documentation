@@ -23,7 +23,9 @@ ___
     ![Homepage Image Public Multivariate](images/comparemultivariate_redu_homepage.png)
  
  3. Enter the task ID of the previously run GNPS job into the bar, and click the "Create PCA".
- 
-    ![Enter Task ID](images/task_id_entry.jpg)
+
+    * Click the checkbox "Display Nearest Neighbor" to have a table containing the identities of the top 100 nearest neighbors per sample from the repsoitory data
+
+    ![Enter Task ID](images/task_id_entry.gif)
  
  4. For cababilities of data exploration tool, please view [Global Multivariate Analysis Documentation](https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_MultivariateComparisons/)
