@@ -37,6 +37,14 @@ clicking on the image below launches an interactive version - or edited via this
  
 ---
 
+### ReDU Sample Information Overview
+
+The fields that are used to describe each mass spectrometry file are highlighted and described in our template, this can be found [here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=1747621311). 
+
+This includes references to external controlled vocabularies and ontologies (e.g. Disease Ontology, Uber Ontology, Mass Spectrometry Ontology. We hope this enables ReDU to help data interoperability. 
+
+---
+
 ## Data Availability
 All sample information can be downloaded from the ReDU-MS2 homepage by clicking "Download Database". The ReDU identification database is publicly available and accessible via [(GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp), MSV000084206.
 
