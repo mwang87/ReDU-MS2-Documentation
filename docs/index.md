@@ -39,7 +39,7 @@ clicking on the image below launches an interactive version - or edited via this
 
 ### ReDU Sample Information Overview
 
-The fields that are used to describe each mass spectrometry run are highlighted and described in our template, this can be found [here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=1747621311). 
+The fields that are used to describe each mass spectrometry file are highlighted and described in our template, this can be found [here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=1747621311). 
 
 This includes references to external controlled vocabularies and ontologies (e.g. Disease Ontology, Uber Ontology, Mass Spectrometry Ontology. We hope this enables ReDU to help data interoperability. 
 
