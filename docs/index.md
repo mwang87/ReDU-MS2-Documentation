@@ -73,11 +73,14 @@ Code for ReDU can be found on GitHub - [link here](https://github.com/mwang87/Re
 ---
 
 ## Citation
-Read our recent submitted preprint: [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
+!!! cite "Recommended Citation"
+	Preprint - [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
+	Peer-reviewed Publication - *pending*
 
 ---
 
 ## Issues and Suggestions
+- See FAQ - [link here](FAQ.md)
 - Please submit any issues or suggestions via [GitHub](https://github.com/mwang87/ReDU-MS2-GNPS).
 - The use of the [GNPS forum](https://groups.google.com/forum/#!forum/molecular_networking_bug_reports) is encouraged.
 
