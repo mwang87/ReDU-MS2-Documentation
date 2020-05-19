@@ -6,12 +6,12 @@
 
 !!! info "Required Items of Summary of Steps"
 	1. **Mass spectrometry data (MS/MS data)**
-		1.1 Data converted to open-format (.mzXML or .mzML)
-		1.2 Data uploaded to MassIVE [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) as a public dataset
+		- Data converted to open-format (.mzXML or .mzML)
+		- Data uploaded to MassIVE [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) as a public dataset
 	2. **ReDU-compliant sample information**
-		2.1 Manual completion of the **ReDU sample information template** ([link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing))
-		2.2 Validation of the ReDU sample information template using the drag-and-drop validator [link here](https://redu.ucsd.edu/ReDUValidator)
-		2.3 Upload ReDU-compliant sample information (after validation) to the corresponding MassIVE accession
+		- Manual completion of the **ReDU sample information template** ([link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing))
+		- Validation of the ReDU sample information template using the drag-and-drop validator [link here](https://redu.ucsd.edu/ReDUValidator)
+		- Upload ReDU-compliant sample information (after validation) to the corresponding MassIVE accession
 
 ---
 
