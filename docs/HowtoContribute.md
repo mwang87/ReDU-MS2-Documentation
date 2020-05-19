@@ -3,47 +3,44 @@
 ---
 
 ## Required Items and Summary of Steps
-1. **Mass spectrometry data (MS/MS data)**  <br>
-  1.1 Data converted to open-format (.mzXML or .mzML) <br>
-  1.2 Data uploaded to MassIVE [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) as a public dataset <br>
-2. **ReDU-compliant sample information**  <br>
-  2.1 Manual completion of the **ReDU sample information template** ([link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing)) <br>
-  2.2 Validation of the ReDU sample information template using the drag-and-drop validator [link here](https://redu.ucsd.edu/ReDUValidator) <br>
-  2.3 Upload ReDU-compliant sample information (after validation) to the corresponding MassIVE accession <br>
+
+!!! info "Required Items of Summary of Steps"
+	1. **Mass spectrometry data (MS/MS data)**
+		1.1 Data converted to open-format (.mzXML or .mzML)
+		1.2 Data uploaded to MassIVE [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) as a public dataset
+	2. **ReDU-compliant sample information**
+		2.1 Manual completion of the **ReDU sample information template** ([link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing))
+		2.2 Validation of the ReDU sample information template using the drag-and-drop validator [link here](https://redu.ucsd.edu/ReDUValidator)
+		2.3 Upload ReDU-compliant sample information (after validation) to the corresponding MassIVE accession
 
 ---
 
 ## Detailed Step-by-step Instructions
 
-### 1. **Mass spectrometry data (MS/MS data)**  <br>
+### 1. **Mass spectrometry data (MS/MS data)**
 
 #### 1.1 Convert mass spectrometry data to open-source file formats
 - Convert data
 
-!!! note
+??? info "links to info on data conversion"
     - Instructions on file conversion software - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md)
     - Information on accepted open-source files formats - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md)
 
-??? note
-    - Instructions on file conversion software - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md)
-    - Information on accepted open-source files formats - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md)
-
-???+ note
-    - Instructions on file conversion software - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md)
-    - Information on accepted open-source files formats - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md)
-
-#### 1.2 Upload mass spectrometry data to GNPS/MassIVE and create a MassIVE ID <br>
-- Launch the "Submit your data" workflow to submit your data to MassIVE - [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp?redirect=auth)) - to create a MassIVE ID. **The title must beginning with "GNPS - "** Detailed instructions - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/datasets/)
+#### 1.2 Upload mass spectrometry data to GNPS/MassIVE and create a MassIVE ID
+- Launch the "Submit your data" workflow to submit your data to MassIVE - [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp?redirect=auth)) - to create a MassIVE ID. **The title must beginning with "GNPS"**
 - You will receive an email when the workflow has completed.
 - After complete, make the MassIVE ID public by clicking the **"make public"** button.
 - Please click the **"convert spectra"** button to expedite inclusion in ReDU.
 
-    > Notes: <br>
-      - A free GNPS/MassIVE account is necessary <br>
-      - We encourage the upload of vendor-specific raw data, *e.g.* .raw (Thermo) and .d (Bruker and Agilent), in addition to open-source file formats (.mzXML, .mzML, or .mgf). <br>
-      - Suggested FTP clients - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/fileupload/) <br>
+!!! note
+	A free GNPS/MassIVE account is required. Please sign-up at the MassIVE homepage - [link here](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) 
 
-### 2. **ReDU-compliant sample information** <br>
+??? info "links to info on uploading data and making datasets in MassIVE"
+    - Information on making datasets in MassIVE - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/datasets/)
+	- Suggested FTP clients - [link here](https://ccms-ucsd.github.io/GNPSDocumentation/fileupload/)
+	- We encourage the upload of vendor-specific raw data, *e.g.* .raw (Thermo) and .d (Bruker and Agilent), in addition to open-source file formats (.mzXML, .mzML, or .mgf). <br>
+
+### 2. **ReDU-compliant sample information**
 
 #### 2.1 Manual completion of the ReDU sample information template
 - Navigate to the ReDU Sample Information Template - [link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing)
@@ -52,11 +49,11 @@
 ![Make a copy of the template](images/Sample_Template_MakeACopy.gif)
 
 - Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
-  
-    > Notes: <br>
-      - Columns and values are defined on the readme tab in the template. <br>
-      - The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML). <br>
-      - When copying and pasting from another spreadsheet, please **copy + special paste** so as to not chance the cell formulae or formatting. <br>
+
+!!! notes "notes on using the sample information template"
+	- Columns and values are defined on the readme tab in the template.
+	- The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML).
+	- When copying and pasting from another spreadsheet, please **copy + special paste** so as to not chance the cell formulae or formatting.
 
 
 ![Fill in information](images/Sample_Template_Fill.gif)
