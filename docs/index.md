@@ -1,31 +1,34 @@
 # Welcome to ReDU (Reanalysis of Data User Interface)
 
-!!! question "What is ReDU?"
-	**Finding and reusing data is hard.** ReDU aims to make that easier. **[ReDU](https://redu.ucsd.edu/)** is a community-minded approach to find and reuse public data containing tandem MS data at the repository scale. ReDU is the bridge between the Global Natural Product Social Molecular Networking Analysis Platform [(GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and [MassIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp), a public data repository for mass spectrometry data. The key to making this work is a systemic way of capturing basic information about each file contributed to ReDU (*i.e.* sample information aka metadata). Using the sample information, users can select public data for re-analysis in GNPS or provide their own data along with public data to perform co-analysis. Our aim is to empower researchers to put their data in the context of public data as well as explore questions using public data at the repository scale.
-	![image](images/image_doc.png)
+## "What is ReDU?"
+**Finding and reusing data is hard.** ReDU aims to make that easier. **[ReDU](https://redu.ucsd.edu/)** is a community-minded approach to find and reuse public data containing tandem MS data at the repository scale. ReDU is the bridge between the Global Natural Product Social Molecular Networking Analysis Platform [(GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) and [MassIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp), a public data repository for mass spectrometry data. The key to making this work is a systemic way of capturing basic information about each file contributed to ReDU (*i.e.* sample information aka metadata). Using the sample information, users can select public data for re-analysis in GNPS or provide their own data along with public data to perform co-analysis. Our aim is to empower researchers to put their data in the context of public data as well as explore questions using public data at the repository scale.
+
+![image](images/image_doc.png)
 
 !!! question "How do I contribute to ReDU?"
 	**This is a community effort and everyone is encouraged to participate by submitting their own data and sample information [instructions](HowtoContribute.md).**
 	The sharing of new applications (and code) which use ReDU is highly encouraged.
 
-!!! info "Components of ReDU and What They Do" 
-	1. ReDU Sample Information
-		- information capture system including a template - [link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=1747621311) - as well as a validator - [link here](https://redu.ucsd.edu/ReDUValidator).
-		- a controlled vocabulary and ontologies (e.g. Disease Ontology, Uber Ontology, Mass Spectrometry Ontology) are used.
-	2. ReDU File Selector
-		- the ReDU File Selector is the tool that enables users to find files based on ReDU sample information (*i.e.* metadata) and assemble files into cohorts for analysis in GNPS.
-		- One can select only public data files in ReDU to perform "re-analysis" **or** one can select public data files in ReDU and add their own data file to perform "co-analysis".
-	3. Emperor
-		- Emperor is a visualization tool used to display the results of principal component analysis (PCA) performed on the chemicals annotated in each file in ReDU.
-		- Users can explore all files in ReDU **or** project their own data onto the PCA space using a GNPS task ID.
-	4. Chemical Explorer
-		- Chemical Explorer enables used to explore the chemicals annotated in ReDU files and their associated sample information (*i.e.* metadata).
-	5. GNPS (gnps.ucsd.edu)
-		- GNPS is an analysis platform supporting ReDU.
-		- Chemical annotations are performed via GNPS spectral library search (*i.e.* MS/MS spectral library matching)
-		- Molecular networking (co- and re-analyses) are performed in GNPS.
-	6. MassIVE (massive.ucsd.edu)
-		- MassIVE is the data repository that ReDU utlizes for mass spectrometry data as well as the sample information (*i.e.* metadata).
+---
+
+## Components of ReDU 
+1. **ReDU Sample Information**
+	- information capture system including a template - [link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=1747621311) - as well as a validator - [link here](https://redu.ucsd.edu/ReDUValidator).
+	- a controlled vocabulary and ontologies (e.g. Disease Ontology, Uber Ontology, Mass Spectrometry Ontology) are used.
+2. **ReDU File Selector**
+	- the ReDU File Selector is the tool that enables users to find files based on ReDU sample information (*i.e.* metadata) and assemble files into cohorts for analysis in GNPS.
+	- One can select only public data files in ReDU to perform "re-analysis" **or** one can select public data files in ReDU and add their own data file to perform "co-analysis".
+3. **Emperor**
+	- Emperor is a visualization tool used to display the results of principal component analysis (PCA) performed on the chemicals annotated in each file in ReDU.
+	- Users can explore all files in ReDU **or** project their own data onto the PCA space using a GNPS task ID.
+4. **Chemical Explorer**
+	- Chemical Explorer enables used to explore the chemicals annotated in ReDU files and their associated sample information (*i.e.* metadata).
+5. **GNPS (gnps.ucsd.edu)**
+	- GNPS is an analysis platform supporting ReDU.
+	- Chemical annotations are performed via GNPS spectral library search (*i.e.* MS/MS spectral library matching)
+	- Molecular networking (co- and re-analyses) are performed in GNPS.
+6. **MassIVE (massive.ucsd.edu)**
+	- MassIVE is the data repository that ReDU utlizes for mass spectrometry data as well as the sample information (*i.e.* metadata).
     
 ---
 
