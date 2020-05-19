@@ -1,8 +1,10 @@
 # Multivariate Analysis of Chemical Annotations Provide Context
 
-# Re-analysis of Public Data in ReDU
+---
 
-## Summary
+## Re-analysis of Public Data in ReDU
+
+### Summary
 The common denominator of all mass spectrometry data is the chemicals detected. In spite of the numerous confounders (*e.g.* instrument type, user, year, and extraction method), the chemicals that are detected and annotated from samples is the ground truth of any experiment. The **MS2 data, specifically product ion scans, are extracted from the public data and analyzed *de novo* in GNPS**, and in doing so provide the chemical annotations based on library spectral matching for each file. **Principal components analysis (PCA)** was used to analyze the results in an unsupervised manner. The results are plotted using Emperor which provides interactive plotting capabilities to explore the data via a PCA score plot. Using Emperor, the user has the ability to change the plot axes, color points by sample information, and filter which data point are plotted based on sample information.
 
 !!! notes
@@ -23,9 +25,11 @@ The common denominator of all mass spectrometry data is the chemicals detected. 
 	5. Users can filter which samples are plotted in the PCA score plot based on a sample information cateogry using the drop down menu.
 		![Sample Filtration](images/filter_samples.gif)
 
-# Co-analysis of Public Data in ReDU
+---
 
-## Summary
+## Co-analysis of Public Data in ReDU
+
+### Summary
 The common denominator of all mass spectrometry data is the chemicals detected. In spite of the numerious confounders (*e.g.* instrument type, user, year, and extraction method), the chemicals that are detected and annotated from samples is the ground truth of any experiment. The **MS2 data, specifically product ion scans, are extracted from the public data and analyzed *de novo* in GNPS**, and in doing so provide the chemical annotations based on library spectral matching for each file. **Principal components analysis (PCA)** was used to analyze the results in an unsupervised manner. The results are plotted using Emperor visualization which provides interactive plotting capabilities to explore the data via a PCA score plot. Using the task ID from the GNPS job previously run, your data will be projected on to a precalculated PCA of all ReDU data. 
 
 !!! info "Example Use Cases"
