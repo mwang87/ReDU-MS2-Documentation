@@ -1,4 +1,5 @@
 site_name: ReDU Documentation
+edit_uri: https://github.com/mwang87/ReDU-MS2-Documentation/blob/master/docs/
 nav:
     - ReDU Introduction: index.md
     - How to Contribute: HowtoContribute.md
@@ -21,17 +22,14 @@ nav:
     - FAQ: FAQ.md
 theme:
     name: material
-    #name: readthedocs
 
-    #palette:
-    #    primary: 'light blue'
-    #    accent: 'orange'
-    #font:
-    #    text: 'Roboto'
-    #    code: 'Roboto Mono'
+plugins:
+    - search
+    - git-revision-date
 
-    #logo: 'img/GNPS_logo.jpg'
-#theme: readthedocs
-#theme:
-#  name: 'rtd-dropdown'
+markdown_extensions:
+    - admonition
+    - pymdownx.superfences
+    - pymdownx.details
+    
 google_analytics: ['UA-8412213-5', 'ccms-ucsd.github.io']
