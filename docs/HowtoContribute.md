@@ -44,12 +44,13 @@
 - Navigate to the ReDU Sample Information Template - [link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing)
 - Save a copy of the sample information template by going to **"File - Make a copy"** into a personal google drive
 
-???+ info "how to make a copy of the template - .gif"
+???+ example "how to make a copy of the sample information template - .gif"
 	![Make a copy of the template](images/Sample_Template_MakeACopy.gif)
 
 - Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
 
-![Fill in information](images/Sample_Template_Fill.gif)
+???+ example "filling in the sample information template - .gif"
+	![Fill in information](images/Sample_Template_Fill.gif)
 
 !!! notes "notes on using the sample information template"
 	- One template is required per MassIVE ID
@@ -63,7 +64,8 @@
 - When complete, **delete all extra rows** of the template
 - Download from Google Sheets as a tab separated text file using **"File-Download as" and selecting "Tab-seperated values..."**
 
-![Delete extra rows in the template](images/Sample_Template_deleterows.gif)
+???+ example "how to download the sample information template"
+	![Delete extra rows in the template](images/Sample_Template_deleterows.gif)
 
 - Navigate to the ReDU Sample Information Validator - [link here](https://redu.ucsd.edu/ReDUValidator)
 - Drag-and-drop or select your sample information file into the validator.
@@ -71,7 +73,8 @@
 	- Non-adherant information is displayed in the "Sample Information Validation Errors" panel - the row, column, and the accepted terms are listed.
 	- If errors occur, then please correct the non-adherant information in the template and repeat from 2C
 
-![Validate the Template](images/Validate.gif)
+???+ example "how to validate the sample information template"
+	![Validate the Template](images/Validate.gif)
 
 - Upon passing the validator, **rename the file** to be exactly **"gnps_metadata.tsv"**
 	- The filename must be **gnps_metadata.tsv** - this step is critical
