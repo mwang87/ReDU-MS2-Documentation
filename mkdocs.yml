@@ -12,13 +12,6 @@ nav:
     - Multivariate Analysis (PCA) of ReDU Data: multivariate_analysis.md
     - Group Comparator: group_comparator.md
     - Library Search at GNPS: library_search.md
-    
-    - Analyze Your Data:
-        - Co-Analysis at GNPS: 
-            - Selected File PCA: AnalyzeYourData_SelectedPCA.md
-    - Analyze Public Data:
-        - Re-analysis at GNPS: 
-            - Selected File PCA: AnalyzePublicData_SelectedPCA.md
     - Contact: contact.md
     - FAQ: FAQ.md
 theme:
