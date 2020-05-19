@@ -12,7 +12,7 @@ The common denominator of all mass spectrometry data is the chemicals detected. 
 	- **Explore public data** by comparing the chemicals annotated in samples, analyzed by principal components analysis (PCA), *viz.* human breast milk appears to be most similar to food given their proximity in the PCA score plot.
 	- **Begin to explore high-level questions** that remain unanswered when attempting to compare public mass spectrometry data. For example, does urine always look, chemically, like urine year after year, across instruments, across extraction methods, etc?
  
-!!!+ example "Tutorial"
+!!! example "Tutorial"
 	1. Navigate to the [ReDU-MS2](https://redu.ucsd.edu/) homepage.
 	2. Click on the **"Explore Multivariate Analysis of Public Data"** text under the **"Analyze Public Data"** section.
 		![Redu_Homepage_Link_Location](images/public_comparemultivariate_redu_homepage.png)
@@ -32,7 +32,7 @@ The common denominator of all mass spectrometry data is the chemicals detected. 
 	- **Check your data against public data** by comparing the chemicals annotated in your samples, analyzed by principal components analysis (PCA), versus chemicals annotated in similar chemicals *viz.* does my urine data look like urine data collected by others?
 	- **Explore if interesting differences exist** in your data compared to the public data at the highest-level. For example, does urine from my cohort of diabetes subjects looks similar to other data from different diseases?
 
-!!!+ example "Tutorial"
+!!! example "Tutorial"
 	1. Log into a [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash2.jsp) account and perfrom a library search. Once the job has finished running, make note of the task ID found in the URL.
 		![Find Task ID](images/find_task_id.jpg)
 	2. Navigate to the [ReDU-MS2](https://redu.ucsd.edu/) homepage and click "Compare Your Data to Public Data via Multivariate Analysis" under the Analyze Your Data Section.
