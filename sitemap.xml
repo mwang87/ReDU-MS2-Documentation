@@ -1,77 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-     <loc>None</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/HowtoContribute/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_MultivariateComparisons/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_GNPS_MolecularNetworking/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_GNPS_LibrarySearch/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_SelectedPCA/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzePublicData_MultivariateComparisons/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzePublicData_ChemicalExplorerSampleInformationAssociation/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzePublicData_GNPS_MolecularNetworking/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzePublicData_GNPS_LibrarySearch/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzePublicData_ChemicalExplorer/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzePublicData_GroupComparator/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzePublicData_SelectedPCA/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/contact/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>None</loc>
+    </url><url>
+     <loc>https://mwang87.github.io/ReDU-MS2-Documentation/FAQ/</loc>
      <lastmod>2020-05-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
