@@ -44,7 +44,8 @@
 - Navigate to the ReDU Sample Information Template - [link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing)
 - Save a copy of the sample information template by going to **"File - Make a copy"** into a personal google drive
 
-![Make a copy of the template](images/Sample_Template_MakeACopy.gif)
+!!! info "how to make a copy of the template - .gif"
+	![Make a copy of the template](images/Sample_Template_MakeACopy.gif)
 
 - Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
 
@@ -92,7 +93,7 @@
 	- **Note: GNPS/MassIVE is searched multiple times per day to find new or updated sample information files so it may take some time for your data to appear.**
 
 !!! Success
-	Congrats and thank you for contributing to ReDU!
+	Congrats and thank you for contributing to ReDU! :thumbsup:
 
 # Help and Advice
 - General Questions or Advice = GNPS Forum - [link here](https://groups.google.com/forum/#!forum/molecular_networking_bug_reports) <br>
