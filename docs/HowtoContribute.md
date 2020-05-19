@@ -44,7 +44,7 @@
 - Navigate to the ReDU Sample Information Template - [link here](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit?usp=sharing)
 - Save a copy of the sample information template by going to **"File - Make a copy"** into a personal google drive
 
-!!! info "how to make a copy of the template - .gif"
+???+ info "how to make a copy of the template - .gif"
 	![Make a copy of the template](images/Sample_Template_MakeACopy.gif)
 
 - Fill in sample information using drop-downs when applicable (grey columns at the end of the template are automatically entered using formulae).
