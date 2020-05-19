@@ -23,6 +23,8 @@
 ## 2. Mass spectrometry data (MS/MS data)
 
 ### 2.1 Convert mass spectrometry data to open-source file formats
+- convert your data to open-source file format accepted in MassIVE
+
 ??? info "links to info on data conversion"
     - Instructions on file conversion software - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/fileconversion.md)
     - Information on accepted open-source files formats - [link here](https://github.com/CCMS-UCSD/GNPSDocumentation/blob/master/docs/isgnpsright.md)
@@ -77,7 +79,9 @@
 	![Validate the Template](images/Validate.gif)
 
 - Upon passing the validator, **rename the file** to be exactly **"gnps_metadata.tsv"**
-	- The filename must be **gnps_metadata.tsv** - this step is critical
+
+!!! warning
+	The filename must be **gnps_metadata.tsv** - this step is critical. This is how we find things in the MassIVE repository!
 
 !!! notes "notes on validator use"
 	- If corrections or updates are necessary, please make them accordingly and upload the new validated sample information file named **"gnps_metadata.tsv"**. ReDU will automatically import the most recent version of the "gnps_metadata.tsv" file (files cannot be deleted by users from MassIVE).
