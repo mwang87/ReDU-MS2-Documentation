@@ -7,14 +7,13 @@ repo_url: https://github.com/mwang87/ReDU-MS2-Documentation
 nav:
     - ReDU Introduction: index.md
     - How to Contribute: HowtoContribute.md
+    - Multivariate Analysis (PCA) of ReDU Data: multivariate_analysis.md
     - Analyze Your Data:
-        - Multivariate - Project Your Data: AnalyzeYourData_MultivariateComparisons.md
         - Co-Analysis at GNPS: 
             - Molecular Networking at GNPS: AnalyzeYourData_GNPS_MolecularNetworking.md
             - Library Search at GNPS: AnalyzeYourData_GNPS_LibrarySearch.md
             - Selected File PCA: AnalyzeYourData_SelectedPCA.md
     - Analyze Public Data:
-        - Multivariate - Explore Public Data: AnalyzePublicData_MultivariateComparisons.md
         - Chemical Explorer: AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md
         - Re-analysis at GNPS: 
             - Molecular Networking at GNPS: AnalyzePublicData_GNPS_MolecularNetworking.md
