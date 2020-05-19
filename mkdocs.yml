@@ -8,15 +8,14 @@ nav:
     - ReDU Introduction: index.md
     - How to Contribute: HowtoContribute.md
     - Multivariate Analysis (PCA) of ReDU Data: multivariate_analysis.md
+    - Repository-scale Molecular Networking: molecular_networking.md
     - Analyze Your Data:
         - Co-Analysis at GNPS: 
-            - Molecular Networking at GNPS: AnalyzeYourData_GNPS_MolecularNetworking.md
             - Library Search at GNPS: AnalyzeYourData_GNPS_LibrarySearch.md
             - Selected File PCA: AnalyzeYourData_SelectedPCA.md
     - Analyze Public Data:
         - Chemical Explorer: AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md
         - Re-analysis at GNPS: 
-            - Molecular Networking at GNPS: AnalyzePublicData_GNPS_MolecularNetworking.md
             - Library Search at GNPS: AnalyzePublicData_GNPS_LibrarySearch.md
             - Chemical Explorer: AnalyzePublicData_ChemicalExplorer.md
             - Group Comparator: AnalyzePublicData_GroupComparator.md
