@@ -53,7 +53,7 @@ clicking on the image below launches an interactive version or this link - [link
 	- Code for ReDU can be found on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS)
 
 !!! cite "Recommended Citation"
-	- Preprint - [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
+	- Preprint on bioRxiv - [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
 	- Peer-reviewed Publication - *pending*
 
 !!! help "Issues and Suggestions"
