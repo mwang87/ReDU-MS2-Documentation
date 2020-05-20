@@ -32,7 +32,7 @@
     
 ---
 
-## We are developing two main branches of functionality built to re-analyze public data in ReDU or co-analysis of user data with public data in REDU
+## We are developing two main branches of functionality built to re-analyze public data in ReDU or co-analysis of user data with public data in ReDU
 - **Repository-scale Molecular Networking via GNPS** - [link here](molecular_networking.md)
 - **Chemical Explorer in ReDU** - [link here](chemical_explorer.md)
 - **Multivariate Analysis (PCA) visualized via Emperor** - [link here](multivariate_analysis.md)
@@ -53,26 +53,17 @@ clicking on the image below launches an interactive version or this link - [link
 - All sample information can be downloaded from the ReDU-MS2 homepage by clicking "Download Database".
 - The ReDU identification database is publicly available and accessible via [(GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp), MSV000084206.
 
----
-
 ## Code Availability
 Code for ReDU can be found on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS)
 
----
-
-## Citation
 !!! cite "Recommended Citation"
-	Preprint - [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
-	Peer-reviewed Publication - *pending*
+	- Preprint - [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
+	- Peer-reviewed Publication - *pending*
 
----
-
-## Issues and Suggestions
-- See FAQ - [link here](FAQ.md)
-- Please submit any issues or suggestions via [GitHub](https://github.com/mwang87/ReDU-MS2-GNPS).
-- The use of the [GNPS forum](https://groups.google.com/forum/#!forum/molecular_networking_bug_reports) is encouraged.
-
----
+!!! help "Issues and Suggestions"
+	- See FAQ - [link here](FAQ.md)
+	- Please submit any issues or suggestions via [GitHub](https://github.com/mwang87/ReDU-MS2-GNPS).
+	- The use of the [GNPS forum](https://groups.google.com/forum/#!forum/molecular_networking_bug_reports) is encouraged.
 
 ## Page Contributions
 Alan K. Jarmusch (UCSD), Mingxun Wang (UCSD), Christine M. Aceves (UCSD)
