@@ -25,6 +25,7 @@ A **GNPS library search** has been performed for all files with sample informati
 		- If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
 		- When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
 	5. Click on the **Set Up Re-Analysis with GNPS Library Search** button (blue) at the bottom of the page.
+		![library_search](images/library_search.gif)
 	6. Launch the library search job with default parameters or customize parameters. Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
 	
 ---
@@ -52,5 +53,6 @@ A **GNPS library search** has been performed for all files with sample informati
 		- If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
 		- When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
 	5. Click on the **Set Up Co-Analysis with GNPS Library Search** button (blue) at the bottom of the page.
+		![library_search](images/library_search_coanalysis.gif)
 	6. **Add your data** to **Group 1 (G1)**
 	7. Launch the library search job with default parameters or customize parameters. Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
