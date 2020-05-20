@@ -26,8 +26,7 @@ A **GNPS library search** has been performed for all files with sample informati
 		- When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
 	5. Click on the **Set Up Re-Analysis with GNPS Library Search** button (blue) at the bottom of the page.
 	6. Launch the library search job with default parameters or customize parameters. Further documentation on GNPS library search is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
-		![File Selector](images/File_Selector.gif)
-
+	
 ---
 
 ## Co-analysis of Public Data via Library Search at GNPS
@@ -47,7 +46,7 @@ A **GNPS library search** has been performed for all files with sample informati
 !!! example "Tutorial"
 	1. Log into a [GNPS](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp) account.
 	2. Navigate to the [ReDU](https://redu.ucsd.edu/) homepage.
-	3. Click on the **"Re-analyze Public Data at GNPS"** text.
+	3. Click on the **"Co-analyze Public Data at GNPS"** text.
 	4. Select the files you wish to include in the re-analysis by clicking **Group 1 (G1)**
 		- The orange buttons in the center of the screen correspond to Sample Information categories.
 		- If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
