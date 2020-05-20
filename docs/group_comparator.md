@@ -21,6 +21,8 @@
 		- The orange buttons in the center of the screen correspond to Sample Information categories.
 		- If filter/s are used, they will appear as red box/boxes in the Attribute Filters Panel (upper-right corner) of the page. To remove already selected filters click on the red boxed filter you wish to remove and the item should disappear from Attribute Filters Panel.
 		- When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
-	4. Click on the **Launch Sample Information Association** button (blue) at the bottom of the page.
-	5. Click on the **"View Enrichment"** button (orange) on the right side of the page for the chemical annotation of interest. *KNOWN BUG: the number of files does not update to reflect user selection*
-		![File Selector](images/File_Selector.gif)
+	4. Click on the **Launch Group Comparator** button (blue) at the bottom of the page.
+		- ![group_comparator](images/group_comparator.gif)
+	5. The tabulated results can be sorted, searched, and downloaded.
+		- ![group_comparator](images/group_comparator_results.png)
+	6. Example R code to generate plots is included in the ReDU GitHub repository - [link here](https://github.com/mwang87/ReDU-MS2-GNPS/tree/master/examples/Figure1/Group_Comparator).
