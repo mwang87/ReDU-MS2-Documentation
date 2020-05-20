@@ -25,7 +25,7 @@
 		- When files are selected into a group the corresponding button becomes red and the number of files is updated in the Selection Summary Panel (upper-left corner).
 	5. Click on the **Set Up Re-Analysis with GNPS Molecular Networking** button (blue) at the bottom of the page.
 	6. Launch the molecular networking job with default parameters or customize parameters. Further documentation on GNPS molecular networking is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
-		![File Selector](images/File_Selector.gif)
+		![File Selector](images/re_analysis_molnet.gif)
 
 ---
 
@@ -53,4 +53,4 @@
 	5. Click on the **Set Up Co-Analysis with GNPS Molecular Networking** button (blue) at the bottom of the page.
 	6. **Add your data** to one of the remaining groups (*i.e.* G1-G6).
 	7. Launch the molecular networking job with default parameters or customize parameters. Further documentation on GNPS molecular networking is located [here](https://ccms-ucsd.github.io/GNPSDocumentation/).
-		![File Selector](images/File_Selector.gif)
+		![File Selector](images/co_analysis_molnet.gif)
