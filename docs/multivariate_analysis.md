@@ -65,7 +65,5 @@ The common denominator of all mass spectrometry data is the chemicals detected. 
 	2. Navigate to the [ReDU-MS2](https://redu.ucsd.edu/) homepage and click "Compare Your Data to Public Data via Multivariate Analysis" under the Analyze Your Data Section.
 		![Homepage Image Public Multivariate](images/comparemultivariate_redu_homepage.png)
 	3. Enter the task ID of the previously run GNPS job into the bar, and click the "Create PCA".
-		![Enter Task ID](images/task_id_entry.jpg)
+		![example](images/projection_example.gif)
 	4. For cababilities of data exploration tool, please view [Global Multivariate Analysis Documentation](https://mwang87.github.io/ReDU-MS2-Documentation/AnalyzeYourData_MultivariateComparisons/)
-	
-
