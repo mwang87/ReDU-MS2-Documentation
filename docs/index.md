@@ -18,17 +18,15 @@
 2. **ReDU File Selector**
 	- the ReDU File Selector is the tool that enables users to find files based on ReDU sample information (*i.e.* metadata) and assemble files into cohorts for analysis in GNPS.
 	- One can select only public data files in ReDU to perform "re-analysis" **or** one can select public data files in ReDU and add their own data file to perform "co-analysis".
-3. **Emperor**
-	- Emperor is a visualization tool used to display the results of principal component analysis (PCA) performed on the chemicals annotated in each file in ReDU.
-	- Users can explore all files in ReDU **or** project their own data onto the PCA space using a GNPS task ID.
-4. **Chemical Explorer**
-	- Chemical Explorer enables used to explore the chemicals annotated in ReDU files and their associated sample information (*i.e.* metadata).
-5. **GNPS (gnps.ucsd.edu)**
+3. **GNPS (gnps.ucsd.edu)**
 	- GNPS is an analysis platform supporting ReDU.
 	- Chemical annotations are performed via GNPS spectral library search (*i.e.* MS/MS spectral library matching)
 	- Molecular networking (co- and re-analyses) are performed in GNPS.
-6. **MassIVE (massive.ucsd.edu)**
+4. **MassIVE (massive.ucsd.edu)**
 	- MassIVE is the data repository that ReDU utlizes for mass spectrometry data as well as the sample information (*i.e.* metadata).
+5. **Emperor**
+	- [Emperor](https://gigascience.biomedcentral.com/articles/10.1186/2047-217X-2-16) is a visualization tool used to display the results of principal component analysis (PCA) performed on the chemicals annotated in each file in ReDU.
+	- Users can explore all files in ReDU **or** project their own data onto the PCA space using a GNPS task ID.
     
 ---
 
@@ -48,13 +46,11 @@ clicking on the image below launches an interactive version or this link - [link
  
 ---
 
-## Data Availability
-- All data can be downloaded from MassIVE
-- All sample information can be downloaded from the ReDU-MS2 homepage by clicking "Download Database".
-- The ReDU identification database is publicly available and accessible via [(GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp), MSV000084206.
-
-## Code Availability
-Code for ReDU can be found on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS)
+!!! info "Data and Code Availability"
+	- All data can be downloaded from MassIVE
+	- All sample information can be downloaded from the ReDU-MS2 homepage by clicking "Download Database".
+	- The ReDU identification database is publicly available and accessible via [(GNPS)](https://gnps.ucsd.edu/ProteoSAFe/static/gnps-splash.jsp), MSV000084206.
+	- Code for ReDU can be found on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS)
 
 !!! cite "Recommended Citation"
 	- Preprint - [Repository-scale Co- and Re-analysis of Tandem Mass Spectrometry Data](https://www.biorxiv.org/content/10.1101/750471v1).
