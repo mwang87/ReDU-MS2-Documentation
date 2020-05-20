@@ -7,6 +7,7 @@ repo_url: https://github.com/mwang87/ReDU-MS2-Documentation
 nav:
     - ReDU Introduction: index.md
     - How to Contribute: HowtoContribute.md
+    - ReDU File Selector: file_selector.md
     - Repository-scale Molecular Networking: molecular_networking.md
     - Chemical Explorer: chemical_explorer.md
     - Multivariate Analysis (PCA) of ReDU Data: multivariate_analysis.md
