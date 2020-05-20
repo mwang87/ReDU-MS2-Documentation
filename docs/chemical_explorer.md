@@ -22,7 +22,7 @@ Chemical annotation is performed in [GNPS](https://gnps.ucsd.edu/ProteoSAFe/stat
 	3. The table will load (this can take a few seconds). You can browse the chemicals either by scrolling down the page or by searching for specific chemicals via Ctrl+F (COMMAND F on MAC OS). **NOTE: The same chemical can have multiple GNPS annotations.**
 	4. Users can click on the **View Files** button (orange) on the right side of that page to view the files in which a particular chemical was annotated. **[File Query for Sample Information](https://redu.ucsd.edu/datalookup)** displays all the sample information related to a single file (requires full path).
 	5. Users can explore **Sample Information Associations** by clicking the **View Associations** button (orange) on the right side of the page.
-		![Sample Association Info](images/SampleInfoAssociation.gif)
+		![Sample Association Info](images/update_chemical_explorer.gif)
 
 ---
 
