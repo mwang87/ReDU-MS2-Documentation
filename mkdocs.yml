@@ -1,37 +1,34 @@
 site_name: ReDU Documentation
+site_url: https://mwang87.github.io/ReDU-MS2-Documentation/
+edit_uri: https://github.com/mwang87/ReDU-MS2-Documentation/blob/master/docs/
+repo_name: mwang87/ReDU-MS2-Documentation
+repo_url: https://github.com/mwang87/ReDU-MS2-Documentation
+
 nav:
     - ReDU Introduction: index.md
     - How to Contribute: HowtoContribute.md
-    - Analyze Your Data:
-        - Multivariate - Project Your Data: AnalyzeYourData_MultivariateComparisons.md
-        - Co-Analysis at GNPS: 
-            - Molecular Networking at GNPS: AnalyzeYourData_GNPS_MolecularNetworking.md
-            - Library Search at GNPS: AnalyzeYourData_GNPS_LibrarySearch.md
-            - Selected File PCA: AnalyzeYourData_SelectedPCA.md
-    - Analyze Public Data:
-        - Multivariate - Explore Public Data: AnalyzePublicData_MultivariateComparisons.md
-        - Chemical Explorer: AnalyzePublicData_ChemicalExplorerSampleInformationAssociation.md
-        - Re-analysis at GNPS: 
-            - Molecular Networking at GNPS: AnalyzePublicData_GNPS_MolecularNetworking.md
-            - Library Search at GNPS: AnalyzePublicData_GNPS_LibrarySearch.md
-            - Chemical Explorer: AnalyzePublicData_ChemicalExplorer.md
-            - Group Comparator: AnalyzePublicData_GroupComparator.md
-            - Selected File PCA: AnalyzePublicData_SelectedPCA.md
+    - ReDU File Selector: file_selector.md
+    - Repository-scale Molecular Networking: molecular_networking.md
+    - Chemical Explorer: chemical_explorer.md
+    - Multivariate Analysis (PCA) of ReDU Data: multivariate_analysis.md
+    - Group Comparator: group_comparator.md
+    - Library Search at GNPS: library_search.md
     - Contact: contact.md
     - FAQ: FAQ.md
 theme:
     name: material
-    #name: readthedocs
 
-    #palette:
-    #    primary: 'light blue'
-    #    accent: 'orange'
-    #font:
-    #    text: 'Roboto'
-    #    code: 'Roboto Mono'
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: datetime
 
-    #logo: 'img/GNPS_logo.jpg'
-#theme: readthedocs
-#theme:
-#  name: 'rtd-dropdown'
+markdown_extensions:
+    - admonition
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:pymdownx.emoji.twemoji
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    
 google_analytics: ['UA-8412213-5', 'ccms-ucsd.github.io']
