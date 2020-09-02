@@ -58,6 +58,7 @@
 	- One template is required per MassIVE ID
 	- It is highly recommended to fill the template in Google Sheets
 	- ReDU uses a controlled vocublary - the accepted terms are listed in the "ReDUMS2_controlled_vocabulary" tab per column. **If you require terms that are not avaliable, please raise an issue on GitHub - [link here](https://github.com/mwang87/ReDU-MS2-GNPS).**
+	- Please note that the abbreviation within the metadata "ML import: not available" is for data imported from [MetaboLights](https://www.ebi.ac.uk/metabolights/). We automatically import this data, and sometimes are unable to import metadata categories properly with t    he controlled vocabulary used in ReDU
 	- Columns and values are defined on the readme tab in the template.
 	- The filename in the sample information file must match the data uploaded to MassIVE (.mzML or .mzXML). Any conflict between identically named files will result in their exclusion.
 	- When copying and pasting from another spreadsheet, please **copy + special paste** so as to not chance the cell formulae or formatting.
