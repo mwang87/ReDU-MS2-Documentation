@@ -1,5 +1,6 @@
 # ReDU File Selector
 
+The link to the File Selector is [here](https://redu.ucsd.edu/metadataselection)
 ---
 
 ## How to find files with ReDU for Co- or Re-analysis of ReDU Data
